@@ -8,6 +8,7 @@ Week 1 Works:
 - [x] Merged: [Upgrade to Java 8](https://github.com/TEAMMATES/teammates/pull/7637)
 
 Week 1 Retrospect:
+
 No major setback; managed to achieve the goal of allowing the whole system to run under Java 8 runtime.
 
 Week 2 Plan:
@@ -18,6 +19,7 @@ Week 2 Works:
 - [x] Merged: [Update CheckStyle to 8.0](https://github.com/TEAMMATES/teammates/pull/7874)
 
 Week 2 Retrospect:
+
 Selenium update is delayed because there are too many failing tests.
 
 Week 3:
@@ -29,8 +31,8 @@ Week 3 Works:
 - [ ] Ongoing: [Migrate development tools to Google Cloud SDK - CLI/Gradle](https://github.com/TEAMMATES/teammates/pull/8045)
 
 Week 3 Retrospect:
-Selenium update is taken out of the action plan as it is not critical for the project's goal of supporting Java 8 runtime.
-Met some difficulties and disagreement on how to handle local datastore getting wiped out across different builds; will resolve and finish the ongoing PR by next week.
+- Selenium update is taken out of the action plan as it is not critical for the project's goal of supporting Java 8 runtime.
+- Met some difficulties and disagreement on how to handle local datastore getting wiped out across different builds; will resolve and finish the ongoing PR by next week.
 
 ---
 Week 4 (current):

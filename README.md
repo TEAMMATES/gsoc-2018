@@ -1,6 +1,6 @@
 # gsoc-2018
 
-This repository is for tracking TEAMMATES' activities in GSoC 2018. The primary purpose is for the students to update their progress and plan on a daily basis, and for the mentors to verify/validate those progresses/plans.
+This repository is for tracking TEAMMATES' activities in GSoC 2018. The primary purpose is for the students to update their progress and plan on a weekly basis, and for the mentors to verify/validate those progresses/plans.
 
 The following workflow should be observed:
 - Students

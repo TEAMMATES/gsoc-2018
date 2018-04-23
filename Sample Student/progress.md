@@ -1,5 +1,15 @@
 # Sample Student
 
+Overall Direction:
+
+- Migrate to Java 8 runtime
+- Update libraries to latest, particularly those blocked by Java 8
+- Adopt Java 8 best practices and syntaxes (lambda, functional interface, etc.)
+- Migrate development tools to Google Cloud SDK in CLI, Eclipse, IntelliJ
+- Establish TEAMMATES as a Java 8 project
+
+---
+
 Week 1 Plan:
 - [x] Change build/test environments to Java 8, remove/update incompatible libraries
 - [x] Update all tests to pass under Java 8 environment

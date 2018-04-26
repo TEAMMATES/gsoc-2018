@@ -1,7 +1,8 @@
 # Sample Student
 
-Overall Direction:
+**Project: Java 8 and Google Cloud SDK Migration**
 
+Overall Direction:
 - Migrate to Java 8 runtime
 - Update libraries to latest, particularly those blocked by Java 8
 - Adopt Java 8 best practices and syntaxes (lambda, functional interface, etc.)

@@ -1,6 +1,6 @@
 # Tan Heng Yeow
 
-**Project: Spreadsheet Interface for Student Data UI**
+**Project: Spreadsheet Interface for Student Data UI** (non-GSoC project)
 
 Overall Direction:
 - 

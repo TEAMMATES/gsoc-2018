@@ -6,6 +6,7 @@ The following workflow should be observed:
 - Students
   - Submit all updates via PR
     - PR title: `Week X Progress Update: Your Name`
+    - For updating the project plan at any point of time, use `Project Plan Update: Your Name` instead
   - Work with your mentors to adjust your plan, and communicate any difficulty you faced
 - Mentors
   - Verify that all the progress reported by the student is valid

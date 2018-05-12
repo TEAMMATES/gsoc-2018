@@ -13,29 +13,29 @@ Overall Direction:
 ---
 
 Week 1 Plan:
-- [ ] Make UI changes for [Rubric questions: allow weightages for sub questions](https://github.com/TEAMMATES/teammates/issues/7224)
-- [ ] Implement the logic for weights feature in rubric questions sub questions
+- [ ] Implement the frontend part of [Rubric questions: allow weightages for sub questions](https://github.com/TEAMMATES/teammates/issues/7224)
+- [ ] Start Implementing the backend for weights feature in rubric questions sub questions
 
 Week 2 Plan:
 **Final Semester Exams**
 
+- [ ] Finalize the sample question list for the new question template
+
 Week 3 Plan:
-- [ ] Write tests for [Rubric questions: allow weightages for sub questions](https://github.com/TEAMMATES/teammates/issues/7224)
+- [ ] Implement the backend for [Rubric questions: allow weightages for sub questions](https://github.com/TEAMMATES/teammates/issues/7224)
 - [ ] Update documentation for rubric question weight feature in the instructor help page
-- [ ] Make UI changes for [MCQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/2776)
+- [ ] Implement the frontend part of [MCQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/2776)
 
 Week 4 Plan:
-- [ ] Implement the logic for [MCQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/2776)
-- [ ] Write tests for [MCQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/2776)
+- [ ] Implement the backend part of [MCQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/2776)
 
 Week 5 Plan:
 - [ ] Update documentation for MCQ questions in Instructor Help page
 - [ ] Calculate more statistics for MCQ questions (Total, average for each student) - [Separate issue not created yet]
-- [ ] Make UI changes for[MSQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/7281)
+- [ ] Implement the frontend part of [MSQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/7281)
 
 Week 6 Plan:
-- [ ] Implement the logic for [MSQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/7281)
-- [ ] Write tests for [MSQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/7281)
+- [ ] Implement the backend part of [MSQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/7281)
 
 Week 7 Plan:
 - [ ] Update documentation for MSQ questions in the Instructor Help page
@@ -50,18 +50,15 @@ Week 9 Plan:
 
 Week 10 Plan:
 - [ ] Buffer time to finish off any left over work from past weeks
-- [ ] Finalize the sample question list for the new question template
 
 Week 11 Plan:
-- [ ] Create the JSON file for the new question template
-- [ ] New session template - Make UI changes
+- [ ] Implement the backend part of the new question template
 
 Week 12 Plan:
-- [ ] Finish the implementation for the new session template
-- [ ] Write tests for the new session template
+- [ ] Implement the frontend part of the new session template
+- [ ] Documentation for the new session template (Write guides on how to use this template and also provide some sample question in the Instructor Help Page that the instructors can use)
 
 Week 13 Plan:
-- [ ] Documentation for the new session template (Write guides on how to use this template and also provide some sample question in the Instructor Help Page that the instructors can use)
 - [ ] Buffer time for review and iterations
 
 Week 14 Plan:

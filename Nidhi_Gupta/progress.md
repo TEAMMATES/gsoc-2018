@@ -25,7 +25,6 @@ Bonus features (To do after adding basic comment feature for all question types)
 ---
 
 Week 1 Plan: 
-
 - [ ] Implement the backend part of the ability for respondents to add comments for MCQ questions
 - [ ] Implement the frontend part of comments feature for students
 
@@ -69,13 +68,14 @@ Week 10 Plan:
 Week 11 Plan:
 - [ ] Finish any remaining work from week 8-10
 - [ ] Fix issues after code review
-
-Week 12 Plan:
 - [ ] Implement backend of ability for instructors to disable comments
 
-Week 13 Plan:
+Week 12 Plan:
 - [ ] Implement frontend of ability for instructors to disable comments
 - [ ] Add tests
+
+Week 13 Plan:
+- [ ] Code review and code fix
 
 Week 14 Plan:
 - [ ] Code review and code fix

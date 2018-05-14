@@ -13,12 +13,12 @@ Overall Direction:
 
 Week 1 Plan:
 - [ ] 
-- [ ] Student: feedback submission: distribution points question: explain if equal points are not allowed (issue #8787)
-- [ ] Detailed mockups of sidebar for splitting sections of instructor help docs
+- [ ] Work on [Student: feedback submission: distribution points question: explain if equal points are not allowed](https://github.com/TEAMMATES/teammates/issues/8817)
+- [ ] Discuss with Cara further work to be done on Getting started guide and help docs
 
 Week 2 Plan:
 - [ ] 
-- [ ] New instructors: set the time zone of the sample course to match user (issue #8817)
+- [ ] Work on [New instructors: set the time zone of the sample course to match user](https://github.com/TEAMMATES/teammates/issues/8787)
 - [ ] Front end development for sidebar of instructor help
 
 Week 3 Plan:

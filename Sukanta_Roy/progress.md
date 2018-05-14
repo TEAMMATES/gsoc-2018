@@ -25,6 +25,7 @@ Week 1 Plan:
 	- [ ] Update `Logic` class
 	- [ ] Update `Action` class
 	- [ ] Add Corrosponding Unit and Integration tests
+- [ ] Code review and fix
 
 Week 2 Plan:
 **Final Semester Exams**
@@ -38,6 +39,7 @@ Week 3 Plan:
 	- [ ] Add necessary JS tests
 	- [ ] Add frontend UI tests
 - [ ] If frontend and backend part for MCQ weights are finished, then add necessary UI tests and make the PR ready for review.
+- [ ] Code review and fix
 
 Week 4 Plan:
 - [ ] Finish off remaining work from past week (if any)
@@ -45,6 +47,7 @@ Week 4 Plan:
 - [ ] Code review and fix
 - [ ] Calculate more statistics for MCQ questions to show in the results page
 - [ ] Ensure that the CSV files include all data shown in the page for MCQ questions
+- [ ] Code review and fix
 
 Week 5 Plan:
 - [ ] Implement the backend part of [MSQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/7281)
@@ -52,6 +55,7 @@ Week 5 Plan:
 	- [ ] Update `Logic` class
 	- [ ] Update `Action` class
 	- [ ] Add Corrosponding Unit and Integration tests
+- [ ] Code review and fix
 - [ ] Implement the frontend part of [MSQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/7281)
 	- [ ] Update question template to add the new UI for MSQ weights
 
@@ -61,6 +65,7 @@ Week 6 Plan:
 	- [ ] Add necessary JS tests
 	- [ ] Add frontend UI tests
 - [ ] If frontend and backend part for MSQ weights are finished, then add necessary UI tests and make the PR ready for review.
+- [ ] Code review and fix
 - [ ] Update documentation for MSQ questions
 - [ ] Code review and fix
 
@@ -68,6 +73,7 @@ Week 7 Plan:
 - [ ] Code review and fix
 - [ ] Calculate more statistics for MSQ questions (Total, average for each student) to show in the results page
 - [ ] Ensure that the CSV files include all data shown in the page for MSQ questions
+- [ ] Code review and fix
 
 Week 8 Plan:
 - [ ] Buffer time to finish off any remaining work from past weeks and for code review and fixes
@@ -78,6 +84,7 @@ Week 9 Plan:
 	- [ ] Update `Logic` class
 	- [ ] Update `Action` class
 	- [ ] Add Corrosponding Unit and Integration tests
+- [ ] Code review and fix
 - [ ] Implement the frontend for [Rubric questions: allow weightages for sub questions](https://github.com/TEAMMATES/teammates/issues/7224)
 	- [ ] Update question template to add weights on each cell
 
@@ -95,11 +102,13 @@ Week 11 Plan:
 
 Week 12 Plan:
 - [ ] Implement the backend part of the new question template
+- [ ] Code review and fix
 
 Week 13 Plan:
+- [ ] Finish off any remaining work from last week
 - [ ] Implement the frontend part of the new question template
 - [ ] Update documentation
-- [ ] Finish off any remaining work from last week
+- [ ] Code review and fix
 
 Week 14 Plan:
 - [ ] Buffer time for review and iterations

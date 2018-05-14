@@ -13,6 +13,7 @@ Week 1 Plan:
 - [ ] Review PR #8813 [FeedbackRankQuestionUiTest.json: Fix data for Tests #8794 #8813](https://github.com/TEAMMATES/teammates/pull/8813)
 - [ ] Review PR #8770 [Add AdminExceptionTestActionTest #6902 #8770](https://github.com/TEAMMATES/teammates/pull/8770)
 - [ ] Resolve minor issues to improve testing E.g. [#8763](https://github.com/TEAMMATES/teammates/issues/8763) [#8768](https://github.com/TEAMMATES/teammates/issues/8768)
+- [ ] Investigate which tests need to be modified
 
 Week 2 Plan:
 - [ ] Adding more Test cases based on `TODO` present in Testing code (Issues will be created accordingly)
@@ -20,7 +21,7 @@ Week 2 Plan:
 
 Week 3 Plan:
 - [ ] Start work on Upgrade to Selenium 3.x
-- [ ] Explore new Testing Framework for JS which can be useful for front end migration
+- [ ] Work on improving stability of Tests
 
 Week 4 Plan:
 - [ ] Continue work on Upgrade to Selenium 3.x
@@ -43,6 +44,7 @@ Week 8 Plan:
 
 Week 9 Plan:
 - [ ] Based on various Bug reports, find out how to add more tests which can spot bugs while testing
+- [ ] Explore new Testing Framework for JS which can be useful for front end migration
 
 Week 10 Plan:
 - [ ] Buffer time to do unfinished work

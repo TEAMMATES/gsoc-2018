@@ -6,7 +6,7 @@ Overall Direction:
 - Provide Context specific help
 - Improve Getting Started guide
 - Improve documentation structure
-- Sidebar for sections of instructor help
+- Sidebar for sections of instructor help (to be discussed)
 - Resolve UI/UX issues
 
 ---
@@ -17,14 +17,14 @@ Week 1 Plan:
 - [ ] Discuss with Cara further work to be done on Getting started guide and help docs
 
 Week 2 Plan:
-- [ ] 
-- [ ] Work on [New instructors: set the time zone of the sample course to match user](https://github.com/TEAMMATES/teammates/issues/8787)
-- [ ] Front end development for sidebar of instructor help
+- [ ] Front end development for sidebar of instructor help (to be discussed)
+- [ ] Write tests for sidebar
+- [ ] Develop use cases/user stories + UI workflows for enhancements to Getting started guide
 
 Week 3 Plan:
-- [ ] 
-- [ ] Instructor: Edit session: Rubric question: add front-end validation for empty weights (issue #8631)
-- [ ] Write tests for sidebar
+- [ ] Work on [New instructors: set the time zone of the sample course to match user](https://github.com/TEAMMATES/teammates/issues/8787)
+- [ ] Another UX issue
+- [ ] Mockups for enhancements to Getting started guide
 
 Week 4 Plan:
 - [ ] 
@@ -33,13 +33,13 @@ Week 4 Plan:
 
 Week 5 Plan:
 - [ ] 
-- [ ] Develop use cases/user stories + UI workflows for enhancements to Getting started guide
-- [ ] Mockups for enhancements to Getting started guide
+- [ ] Front end development for enhancements to Getting started guide
+- [ ] Writing Selenium tests
 
 Week 6 Plan:
 - [ ] 
-- [ ] Front end development for enhancements to Getting started guide
-- [ ] Writing Selenium tests
+- [ ] Writing remaining Selenium tests (if any) and create PR
+- [ ] Code review and fix
 
 Week 7 Plan:
 - [ ] 
@@ -53,23 +53,23 @@ Week 8 Plan:
 
 Week 9 Plan:
 - [ ] 
-- [ ] Improve documentation structure (phase 1)
-- [ ] Fix UI issues on the side
+- [ ] Buffer period to resolve pending work from week 5-7
+- [ ] Fix issues after code review
 
 Week 10 Plan:
 - [ ] 
-- [ ] Improve documentation structure (phase 1)
-- [ ] Fix UI issues on the side
+- [ ] Improve documentation structure (split into multiple pages + add side navigation where necessary)
+- [ ] Write tests for changes to documentation structure (if any)
 
 Week 11 Plan:
-- [ ] 
-- [ ] Improve documentation structure (phase 2)
-- [ ] Reduce complexity of different tasks by presenting default view 
+- [ ]
+- [ ] Code review + fix issues
+- [ ] Simplify views for complicated tasks by hiding details/advanced options
 
 Week 12 Plan:
-- [ ] 
-- [ ] Add tests for improvements to documentation structure
-- [ ] 
+- [ ]
+- [ ] Find remaining views that need simplification
+- [ ] Fix UI issues on the side
 
 Week 13 Plan:
 - [ ] 

@@ -30,6 +30,7 @@ Week 4 Plan:
 - [ ] Add UI tests for the recovery page
 
 Week 5 Plan:
+- [ ] Add some documentation for current Recycle Bin feature in instructors help page
 - [ ] Complete any work left from past weeks
 - [ ] Buffer time for review and iterations
 
@@ -53,6 +54,7 @@ Week 9 Plan:
 - [ ] Add tests for "Restore" of sessions & students features
 
 Week 10 Plan:
+- [ ] Add some documentation for current Recycle Bin feature in instructors help page
 - [ ] Complete any work left from past weeks
 - [ ] Buffer time for review and iterations
 

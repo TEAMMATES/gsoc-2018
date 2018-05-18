@@ -44,12 +44,12 @@ Week 7 Plan:
 - [ ] Complete any work left from the last week
 
 Week 8 Plan:
-- [ ] Implement feature to allow users to restore selected/all courses (including corresponding sessions) from recycle bin
+- [ ] Implement feature to allow users to restore selected/all courses (including corresponding sessions & students) from recycle bin
 - [ ] Build UI presentation for restoring items
 - [ ] Add tests for "Restore" & "Restore All Courses" of courses features
 
 Week 9 Plan:
-- [ ] Implement feature to allow users to restore selected/all sessions (if corresponding courses are not deleted) from recycle bin
+- [ ] Implement feature to allow users to restore selected/all sessions and student responses (if corresponding courses are not deleted) from recycle bin
 - [ ] Build UI presentation for restoring items
 - [ ] Add tests for "Restore" & "Restore All Sessions" of sessions features
 

@@ -42,11 +42,12 @@ Week 4 Plan:
 
 Week 5 Plan:
 - [ ] Implement the ability for respondents to add comments for numerical-scale questions
-- [ ] Implement the ability for respondents to add comments for rubric questions
-- [ ] Add tests for both
+- [ ] Implement the ability for respondents to add comments for MSQ questions
+- [ ] Implement the ability for respondents to add comments for rank questions
+- [ ] Add tests for trio
 
 Week 6 Plan:
-- [ ] Implement the ability for respondents to add comments for rank questions
+- [ ] Implement the ability for respondents to add comments for rubric questions
 - [ ] Implement the ability for respondents to add comments for distribute questions
 - [ ] Add tests for both
 

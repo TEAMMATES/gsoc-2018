@@ -18,58 +18,58 @@ Week 1 Plan:
 
 Week 2 Plan:
 - [ ] Front end development for sidebar of instructor help (to be discussed)
-- [ ] Write tests for sidebar
-- [ ] Develop use cases/user stories + UI workflows for enhancements to Getting started guide
+- [ ] UI Enhancements for Distribute points style questions
+- [ ] Write browser tests for enhancements
 
 Week 3 Plan:
-- [ ] Work on [New instructors: set the time zone of the sample course to match user](https://github.com/TEAMMATES/teammates/issues/8787)
-- [ ] Another UX issue
-- [ ] Mockups for enhancements to Getting started guide
+- [ ] Solve UX issues on the side
+- [ ] Simplify views for complicated tasks by hiding details/advanced options
+- [ ] Write tests for new views
 
 Week 4 Plan:
-- [ ] 
-- [ ] Buffer period to resolve pending work from week 1-3
-- [ ] Fix issues after code review
+- [ ]
+- [ ] Finding remaining views that need simplification and fixing those
+- [ ] Write remaining tests
 
 Week 5 Plan:
-- [ ] 
+- [ ]
+- [ ] Buffer period to resolve pending work from week 1-4
+- [ ] Fix issues after code review
+
+Week 6 Plan:
+- [ ] Mockups for enhancements to Getting started guide
+- [ ] Develop use cases/user stories + UI workflows for enhancements to Getting started guide
+- [ ] (In depth discussion to ensure common ground on design)
+
+Week 7 Plan:
+- [ ]
 - [ ] Front end development for enhancements to Getting started guide
 - [ ] Writing Selenium tests
 
-Week 6 Plan:
-- [ ] 
-- [ ] Writing remaining Selenium tests (if any) and create PR
-- [ ] Code review and fix
-
-Week 7 Plan:
-- [ ] 
-- [ ] Back end development (if any) for getting started guide
-- [ ] Write back end tests 
-
 Week 8 Plan:
-- [ ] 
-- [ ] Buffer period to resolve pending work from week 5-7
-- [ ] Fix issues after code review
+- [ ]
+- [ ] Writing remaining Selenium tests (if any) and create PR
+- [ ] Code review and fix front end issues
 
 Week 9 Plan:
-- [ ] 
-- [ ] Buffer period to resolve pending work from week 5-7
+- [ ]
+- [ ] Buffer period to resolve pending work from week 6-8
 - [ ] Fix issues after code review
 
 Week 10 Plan:
-- [ ] 
-- [ ] Improve documentation structure (split into multiple pages + add side navigation where necessary)
-- [ ] Write tests for changes to documentation structure (if any)
+- [ ]
+- [ ] Back end development (if any) for getting started guide
+- [ ] Write back end tests 
 
 Week 11 Plan:
-- [ ]
-- [ ] Code review + fix issues
-- [ ] Simplify views for complicated tasks by hiding details/advanced options
+- [ ] 
+- [ ] Code review + fix issues for getting started guide
+- [ ] Improve documentation structure (split into multiple pages + add side navigation where necessary, to be discussed)
 
 Week 12 Plan:
 - [ ]
-- [ ] Find remaining views that need simplification
-- [ ] Fix UI issues on the side
+- [ ] Write tests for changes to documentation structure (if any)
+- [ ] Fix issues after code review
 
 Week 13 Plan:
 - [ ] 

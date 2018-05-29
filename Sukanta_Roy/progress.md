@@ -47,45 +47,40 @@ Week 2 Retrospect:
 In week 2, due to my final exams, I was not able to work on my project. But as the plan was to finalize the sample question list for the new template, I made three templates with sample questions to choose from. The plan is to create a template that will focus on one aspect only (e.g. Team dynamics, Performance based questions with no open ended essay questions etc.). Though further discussion is needed with my mentors and Organization admins to finalize one template that will add the most value to teammates and the instructors. Hoping to do it after May 30th, as Prof. Damith will be available after that.
 
 Week 3 Plan:
-- [ ] Finish off remaining work from week 1 (if any)
+- [ ] Finish implementing the backend part of [MCQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/2776)
 - [ ] Implement the frontend part of [MCQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/2776)
 	- [ ] Update question template to add the new UI for MCQ weights
 	- [ ] Add JS functionalities
 	- [ ] Add necessary JS tests
 	- [ ] Add frontend UI tests
-- [ ] If frontend and backend part for MCQ weights are finished, then add necessary UI tests and make the PR ready for review.
-- [ ] Code review and fix
 
 Week 4 Plan:
-- [ ] Finish off remaining work from past week (if any)
-- [ ] Update documentation for MCQ questions in the `InstructorHelp` page
-- [ ] Code review and fix
+- [ ] Finish off remaining front-end part from last week
+- [ ] If frontend and backend part for MCQ weights are finished, then add necessary UI tests and make the PR ready for review.
 - [ ] Calculate more statistics for MCQ questions to show in the results page
-- [ ] Ensure that the CSV files include all data shown in the page for MCQ questions
 - [ ] Code review and fix
 
 Week 5 Plan:
+- [ ] Ensure that the CSV files include all data shown in the page for MCQ questions
+- [ ] Update documentation for MCQ questions in the `InstructorHelp` page
 - [ ] Implement the backend part of [MSQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/7281)
 	- [ ] Update `QuestionDetails` class
 	- [ ] Update `Logic` class
 	- [ ] Update `Action` class
 	- [ ] Add Corrosponding Unit and Integration tests
 - [ ] Code review and fix
-- [ ] Implement the frontend part of [MSQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/7281)
-	- [ ] Update question template to add the new UI for MSQ weights
 
 Week 6 Plan:
 - [ ] Implement the frontend part of [MSQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/7281)
+	- [ ] Update question template to add the new UI for MSQ weights
 	- [ ] Add JS functionalities
 	- [ ] Add necessary JS tests
 	- [ ] Add frontend UI tests
 - [ ] If frontend and backend part for MSQ weights are finished, then add necessary UI tests and make the PR ready for review.
-- [ ] Code review and fix
 - [ ] Update documentation for MSQ questions
 - [ ] Code review and fix
 
 Week 7 Plan:
-- [ ] Code review and fix
 - [ ] Calculate more statistics for MSQ questions (Total, average for each student) to show in the results page
 - [ ] Ensure that the CSV files include all data shown in the page for MSQ questions
 - [ ] Code review and fix

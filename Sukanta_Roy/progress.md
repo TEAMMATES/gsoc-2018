@@ -19,7 +19,7 @@ Overall Direction:
 ---
 
 Week 1 Plan:
-- [ ] Work on [Instructor: edit rubric question: tweak UI to prevent misunderstanding of weights](https://github.com/TEAMMATES/teammates/issues/8824)
+- [x] Work on [Instructor: edit rubric question: tweak UI to prevent misunderstanding of weights](https://github.com/TEAMMATES/teammates/issues/8824)
 - [ ] Implement the backend part of [MCQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/2776)
 	- [ ] Update `QuestionDetails` class
 	- [ ] Update `Logic` class
@@ -27,9 +27,24 @@ Week 1 Plan:
 	- [ ] Add Corrosponding Unit and Integration tests
 - [ ] Code review and fix
 
+Week 1 Work:
+- [x] Merged: [Instructor: edit rubric question: tweak UI to prevent misunderstanding of weights](https://github.com/TEAMMATES/teammates/issues/8824)
+
+Week 1 Retrospect:
+
+This week the plan was to complete the backend of MCQ weights feature, and I edited `FeedbackMcqQuestionDetails.java` accordingly, but
+I forgot to take into account about MCQ `other` option and how weight feature should behave in case of the `Other` option. After discussing with my mentors and Prof. Damith, we came to the conclusion that, at this point, we will add `weight` feature to `other` option too, giving the instructor full flexibility of the feature. We also discussed the best possible way to store the necessary fields in the datastore. In coming weeks, I will have to change my initial implementation of the weight feature to add the feature for the `Other` option. 
+
 Week 2 Plan:
 **Final Semester Exams**
 - [ ] Finalize the sample question list for the new question template
+
+Week 2 Work:
+- [x] Made 3 sample templates to choose from, for the `Add new template` feature.
+
+Week 2 Retrospect:
+
+In week 2, due to my final exams, I was not able to work on my project. But as the plan was to finalize the sample question list for the new template, I made three templates with sample questions to choose from. The plan is to create a template that will focus on one aspect only (e.g. Team dynamics, Performance based questions with no open ended essay questions etc.). Though further discussion is needed with my mentors and Organization admins to finalize one template that will add the most value to teammates and the instructors. Hoping to do it after May 30th, as Prof. Damith will be available after that.
 
 Week 3 Plan:
 - [ ] Finish off remaining work from week 1 (if any)

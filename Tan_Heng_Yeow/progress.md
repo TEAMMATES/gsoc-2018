@@ -22,20 +22,42 @@ Overall Direction:
 ---
 
 Week 1 Plan:
-- [ ] Finish up the remaining work for this [PR](https://github.com/TEAMMATES/teammates/pull/7568)
+- [X] Finish up the remaining work for this [PR](https://github.com/TEAMMATES/teammates/pull/7568)
 - [ ] Write tests for features in the spreadsheet interface
 
+Works:
+- 1st review ready at https://github.com/TEAMMATES/teammates/pull/8833#issuecomment-389790326
+- Highlighted some thoughts on plan ahead at https://github.com/TEAMMATES/teammates/issues/8832#issuecomment-389788642
+
+Retrospect on Week 1:
+- Understanding what have been implemented so far
+- Fixing issues found manually
+- Improving code quality and other concerns based on code review
+- Experimenting with new UI/UX changes
+- Faced `Script error` when writing QUnit tests
+
 Week 2 Plan:
-- [ ] Complete tests for new features in the spreadsheet interface 
-- [ ] Update necessary documentation for developers and users
-- [ ] Fix issues after code review
+- [X] Complete tests for new features in the spreadsheet interface 
+- [X] Update necessary documentation for developers and users
+- [X] Fix issues after code review
 - [ ] Deploy new spreadsheet interface
+
+Works:
+- 2nd review ready at https://github.com/TEAMMATES/teammates/pull/8833#issuecomment-391748250
+
+Retrospect on Week 2:
+- Fixed problem faced in Week 1. `Script error` was due to the `Handsontable` object not able to manipulate the existing DOM
+- Refactored code to improve code quality and testability
+- Experimenting with new UI/UX changes
+- Set up staging server with latest changes
+- Discussed and the plan ahead is to focus features on `instructorCourseEnrollPage` first. Migration can happen in other pages at a later stage.
 
 Week 3 Plan:
 
-Work on feature "Updating email field of student through a context menu"
+Work on feature "Updating email field of an existing student through a context menu"
 
 - [ ] Fix any new issues from Week 2
+- [ ] Work on loading existing student data into `instructorCourseEnrollPage` through AJAX request
 - [ ] Implement feature for context menu to allow highlighted `email` fields to be edited once after click
 - [ ] Write tests for new feature above
 
@@ -44,6 +66,7 @@ Week 4 Plan:
 Work on feature "Updating email field of student through a context menu"
 
 - [ ] Finish up any remaining work from Week 3
+- [ ] Fix issues after code review
 - [ ] Implement dialog box to confirm changes
 - [ ] Write tests for new feature above
 - [ ] Integrate features into spreadsheet interface
@@ -72,6 +95,7 @@ Week 7 Plan:
 Work on feature "Deleting selected students through tick boxes"
 
 - [ ] Finish up any remaining work from Week 6
+- [ ] Fix issues after code review
 - [ ] Write tests for delete button
 - [ ] Integrate features into spreadsheet interface
 - [ ] Update necessary documentation for developers and users for this feature
@@ -98,6 +122,7 @@ Week 10 Plan:
 Work on feature "Merging cells with the same team together and auto merge students with same team together upon new entry"
 
 - [ ] Finish up any remaining work from Week 9 
+- [ ] Fix issues after code review
 - [ ] Write tests for new feature above
 - [ ] Integrate features into spreadsheet interface
 - [ ] Update necessary documentation for developers and users for this feature

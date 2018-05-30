@@ -124,7 +124,6 @@ Week 10 Plan:
 Work on feature "Merging cells with the same team together and auto merge students with same team together upon new entry"
 
 - [ ] Finish up any remaining work from Week 9 
-- [ ] Fix issues after code review
 - [ ] Write tests for new feature above
 - [ ] Integrate features into spreadsheet interface
 - [ ] Update necessary documentation for developers and users for this feature

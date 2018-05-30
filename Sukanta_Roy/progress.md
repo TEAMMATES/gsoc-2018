@@ -15,7 +15,7 @@ Overall Direction:
 	- Attach weights to each cell instead of each column
 	- Update results accordingly
 	- Ensure downloaded data contains all data shown in the page.
-- Add a new question template
+- [Add a new question template](https://github.com/TEAMMATES/teammates/issues/8850)
 ---
 
 Week 1 Plan:
@@ -40,7 +40,7 @@ Week 2 Plan:
 - [ ] Finalize the sample question list for the new question template
 
 Week 2 Work:
-- [x] Made 3 sample templates to choose from, for the `Add new template` feature.
+- [x] Made 3 sample templates to choose from, for the [Add new template](https://github.com/TEAMMATES/teammates/issues/8850) feature.
 
 Week 2 Retrospect:
 

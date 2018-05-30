@@ -30,11 +30,12 @@ Works:
 - Highlighted some thoughts on plan ahead at https://github.com/TEAMMATES/teammates/issues/8832#issuecomment-389788642
 
 Retrospect on Week 1:
-- Understanding what have been implemented so far
-- Fixing issues found manually
-- Improving code quality and other concerns based on code review
-- Experimenting with new UI/UX changes
-- Faced `Script error` when writing QUnit tests
+
+I have a better understanding of the Handsontable library and the APIs the library provides after working on the tasks this week. I have bookmarked the resources I searched for that aids me in implementing the spreadsheet interface during the process. I believe these resources will serve as a good reference from time to time when I work on new features for the spreadsheet interface at a later stage. 
+
+Also, I highlighted some thoughts on how I envision the spreadsheet interface to be after working on the initial upgrade of the spreadsheet interface as I am more familiar with components of the spreadsheet interface now. I believe getting early feedback and advice on the plan ahead would prevent complications where the features might not fit in well with TEAMMATES or have potential conflicts with future plans.
+
+I faced a problem getting a `Script error` after running javascript tests. I was stuck on this issue for about a few hours and it was blocking my progress of writing tests. Therefore, what I feel I did right was to highlight this issue to my mentors early while providing the actions I have attempted so that they can provide advice on how to get around it. Also, this serves as an update on the stage that I am currently at.
 
 Week 2 Plan:
 - [X] Complete tests for new features in the spreadsheet interface 
@@ -46,11 +47,14 @@ Works:
 - 2nd review ready at https://github.com/TEAMMATES/teammates/pull/8833#issuecomment-391748250
 
 Retrospect on Week 2:
-- Fixed problem faced in Week 1. `Script error` was due to the `Handsontable` object not able to manipulate the existing DOM
-- Refactored code to improve code quality and testability
-- Experimenting with new UI/UX changes
-- Set up staging server with latest changes
-- Discussed and the plan ahead is to focus features on `instructorCourseEnrollPage` first. Migration can happen in other pages at a later stage.
+
+I managed to solve problem faced last week and figured out a solution after my mentors gave me a nudge on a possibility that this issue is occuring. I felt that this process of trying to figure out a solution myself first before consulting for advice was beneficial in my learning progress. 
+
+Also, I updated my mentors on the direction to adopt and the approach I am taking in advance so that they can give feedback on whether my approach is feasible. I believe this was necessary as the approach taken would affect how the new features should be implemented in later weeks.
+
+I recapped and learnt useful `Array.prototype` methods through the code reviews provided, allowing me to write neater code. This knowledge will be useful for implementing the new features ahead. I also provided thoughts and clarified doubts in the code reviews, allowing me to put myself in my mentors' perspectivies and understand the rationale of their comments.
+
+The work done this week involved improving code quality and testability. What I can improve on is to keep in mind the TDD approach to writing code, which was lacking in the previous week. This mindset would ensure that I do not spend as much effort and time refactoring the code I have written in multiple iterations. Also, I spent some time fixing lint issues after running `npm run lint` and `gradlew lint`. What I can do better is to test for lint issues after each new function/short logic is written so that I do not accumulate the lint issues. Also, through the common lint issues faced, I will take notes of them and write code that adheres to the coding standards, using linters only as a final form of verification.
 
 Week 3 Plan:
 
@@ -66,7 +70,6 @@ Week 4 Plan:
 Work on feature "Updating email field of student through a context menu"
 
 - [ ] Finish up any remaining work from Week 3
-- [ ] Fix issues after code review
 - [ ] Implement dialog box to confirm changes
 - [ ] Write tests for new feature above
 - [ ] Integrate features into spreadsheet interface
@@ -95,7 +98,6 @@ Week 7 Plan:
 Work on feature "Deleting selected students through tick boxes"
 
 - [ ] Finish up any remaining work from Week 6
-- [ ] Fix issues after code review
 - [ ] Write tests for delete button
 - [ ] Integrate features into spreadsheet interface
 - [ ] Update necessary documentation for developers and users for this feature

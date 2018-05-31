@@ -13,8 +13,8 @@ Week 1 Plan:
 - [x] Review PR #8813 [FeedbackRankQuestionUiTest.json: Fix data for Tests #8794 #8813](https://github.com/TEAMMATES/teammates/pull/8813)
 - [x] Review PR #8770 [Add AdminExceptionTestActionTest #6902 #8770](https://github.com/TEAMMATES/teammates/pull/8770)
 - [ ] Resolve minor issues to improve testing
-  - [ ][Resolve Firefox 46.0.1 styling issue #8763](https://github.com/TEAMMATES/teammates/issues/8763)
-  - [x][Remove JS Coverage requirement #8768](https://github.com/TEAMMATES/teammates/issues/8768)
+  - [ ] [Resolve Firefox 46.0.1 styling issue #8763](https://github.com/TEAMMATES/teammates/issues/8763)
+  - [x] [Remove JS Coverage requirement #8768](https://github.com/TEAMMATES/teammates/issues/8768)
 - [x] Investigate which tests need to be modified
 
 Week 1 Work:

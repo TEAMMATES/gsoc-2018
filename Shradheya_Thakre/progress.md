@@ -31,7 +31,7 @@ I also spent the week in reviewing the Testing related PR's which were pending f
 
 
 Week 2 Plan:
-- [x]Adding more Test cases based on `TODO` present in Testing code (Issues will be created accordingly)
+- [x] Adding more Test cases based on `TODO` present in Testing code (Issues will be created accordingly)
   - [x] [BackDoorTest: add test for deletion of Feedback Session](https://github.com/TEAMMATES/teammates/issues/8842)
   - [x] [Testing: Improve instructions and process #8844](https://github.com/TEAMMATES/teammates/issues/8844)
 - [x] Review PR's related to Testing which have been left untouched for a long time

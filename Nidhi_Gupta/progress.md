@@ -25,16 +25,40 @@ Bonus features (To do after adding basic comment feature for all question types)
 ---
 
 Week 1 Plan: 
-- [ ] Implement the backend part of the ability for respondents to add comments for MCQ questions
-- [ ] Implement the frontend part of comments feature for students
+- [x] Implement the backend part of the ability for respondents to add comments for MCQ questions
+- [x] Implement the frontend part of comments feature for students
+
+Works
+- 1st review ready at https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-391105329
+
+Retrospect on Week 1:
+Most of the week 1 went into understanding the comments feature for instructors and implementing the same for students.
+Previous closed PR on this issue helped a lot in this regard. 
+I learnt working with JSP and tag files. There were instances when I felt I had completely broken the project.
+Debugging was the hardest part in this week.
 
 Week 2 Plan:
-- [ ] Accomodate student comments in instructor results page (All views)
-- [ ] Implement the ability to edit and delete comments
+- [x] Accomodate student comments in instructor results page (All views)
+- [x] Implement the ability to edit and delete comments
+
+Works
+- 2nd review ready at https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-392290459
+
+Retrospect on Week 2:
+Week 1 made me quite comfortable to make further changes. This was the week when I made lots of changes in the code owing to dreaded Null Pointer Exception.
+I spent a day trying to figure out reason for Malformed Url Exception but in vain. Finally I left it as it is and continued make other changes. Somehow surprisingly this error went away after few commits in travis build but not on my development environment. 
+I think I spent more time debugging my code than actually adding new code. So I learnt to be more careful while writing code to avoid mistakes that would cost me much more time because of debugging.
 
 Week 3 Plan:
-- [ ] Add comments column to CSV 
-- [ ] Add tests for MCQ
+- [x] Add comments column to CSV 
+- [x] Add tests for MCQ
+
+Works
+- 3rd review ready at https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-393665433
+
+Retrospect on Week 3
+Adding tests was easiest part. I spent most of the time fixing the failing tests. I felt that in last three weeks, reviews were not as consisent as thought it would be. I believe this was due to unavailability of senior mentor. 
+I utilised this time to try improve my code. I really enjoyed testing the new feature and I am looking forward to getting this PR merged by next week.
 
 Week 4 Plan:
 - [ ] Finish any remaining work from week 1-3

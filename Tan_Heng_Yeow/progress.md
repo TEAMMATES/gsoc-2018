@@ -10,12 +10,10 @@ Overall Direction:
     * 2nd stage
         * To add a new separate spreadsheet interface in `instructorCourseEnrollPage` to show existing students (existing students' spreadsheet interface). This spreadsheet interface would be read-only.
     * 3rd stage
-        * To add existing buttons from `instructorCourseDetailsPage` into existing students' spreadsheet interface.
-    * 4th stage
         * To allow edits on existing students' spreadsheet interface except the `Email` column. New column to be created for updates to existing student email.
-    * 5th stage
+    * 4th stage
         * To explore suitable feedback mechanism for each row in existing students' spreadsheet interface if edits to the field are not permitted after backend validation.
-    * 6th stage
+    * 5th stage
         * To add a column or way to allow deleting selected students in existing students' spreadsheet interface.
 
 * Pages that will be affected by the upgrade include:
@@ -92,27 +90,6 @@ Week 5 Plan:
 
 3rd stage:
 - [ ] Fix any new issues from Week 4
-- [ ] Add existing buttons from `instructorCourseDetailsPage` into existing students' spreadsheet interface. These buttons include:
-    - [ ] View
-    - [ ] Edit
-    - [ ] Send Invite
-    - [ ] Delete
-    - [ ] All Records
-    - [ ] Delete All Students
-- [ ] Add code to backend functionality of the buttons to redirect back to `instructorCourseEnroll` if necessary
-- [ ] Add code to backend functionality of the buttons to show status messages in `instructorCourseEnroll` if necessary
-- [ ] Write tests for new feature above
-
-Week 6 Plan:
-
-3rd stage:
-- [ ] Finish up any remaining work from Week 5
-- [ ] Complete tests for new feature above
-
-Week 7 Plan:
-
-4th stage:
-- [ ] Fix any new issues from Week 6
 - [ ] Allow all existing columns in existing students' spreadsheet interface to be editable except the `Email` column.
 - [ ] Create a new column for users to update existing students' email in existing students' spreadsheet interface. 
 - [ ] Create a new backend action to edit students fields in existing students' spreadsheet interface. 
@@ -120,50 +97,61 @@ Week 7 Plan:
     - [ ] Edits to `Email` via values inserted in new column
 - [ ] Write tests for new feature above
 
+Week 6 Plan:
+
+3rd stage:
+- [ ] Finish up any remaining work from Week 5
+
+Week 7 Plan:
+
+3rd stage:
+- [ ] Fix any new issues from Week 6
+- [ ] Create a new button to update changes to existing students' spreadsheet interface
+- [ ] Design a modal box to display after the instructor clicks the new button to update changes to existing students' spreadsheet interface
+    - [ ] Include option to resend past session links to potential new emails created
+- [ ] Include status box messages to be shown in `instructorCourseEnroll` page after backend validation is performed for the updated changes.
+- [ ] Write tests for new feature above
+
 Week 8 Plan:
 
-4th stage:
+3rd stage:
 - [ ] Finish up any remaining work from Week 7
+- [ ] Complete tests for new feature above
 
 Week 9 Plan:
 
 4th stage:
 - [ ] Fix any new issues from Week 8
-- [ ] Create a new button to update changes to existing students' spreadsheet interface
-- [ ] Design a model box to show after the instructor clicks the new button to update changes to existing students' spreadsheet interface
-    - [ ] Include option to resend past session links to potential new emails created
-- [ ] Include status box messages to be shown in `instructorCourseEnroll` page after backend validation is performed for the updated changes.
-- [ ] Write tests for new feature above
+- [ ] Implement skeleton feedback mechanism for each row in existing students' spreadsheet interface.
 
 Week 10 Plan:
 
 4th stage:
 - [ ] Finish up any remaining work from Week 9
-- [ ] Complete tests for new feature above
+- [ ] Migrate status box messages to the new feedback mechanism.
+- [ ] Write tests for new feature above
 
 Week 11 Plan:
 
-5th stage:
-- [ ] Implement skeleton feedback mechanism for each row in existing students' spreadsheet interface.
-- [ ] Migrate status box messages to the new feedback mechanism.
-- [ ] Write tests for new feature above
+4th stage:
+- [ ] Finish up any remaining work from Week 10
+- [ ] Complete tests for new feature above
 
 Week 12 Plan:
 
 5th stage:
-- [ ] Finish up any remaining work from Week 11
-- [ ] Complete tests for new feature above
+- [ ] Fix any new issues from Week 11
+- [ ] Implement tick boxes as a column in spreadsheet interface
 
 Week 13 Plan:
 
-6th stage
-- [ ] Fix any new issues from Week 12
-- [ ] Implement tick boxes as a column in spreadsheet interface
-- [ ] Write tests for new feature above
+5th stage:
+- [ ] Finish up any remaining work from Week 12
 - [ ] Implement functionality of delete button
+- [ ] Write tests for new feature above
 
 Week 14 Plan:
 
-6th stage
+5th stage:
 - [ ] Finish up any remaining work from Week 13
 - [ ] Complete tests for new feature above

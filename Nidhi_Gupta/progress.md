@@ -70,7 +70,6 @@ Works
 Retrospect on Week 4:
 Code review couldn't be done in this week so I worked upon feature to support entering comments for each response from view Giver-Question-Recipient which was to be done in Week 10. It is almost done. Adding tests is remaining.
 
-
 Week 5 Plan:
 - [ ] Implement the ability for respondents to add comments for numerical-scale questions
 - [ ] Implement the ability for respondents to add comments for MSQ questions

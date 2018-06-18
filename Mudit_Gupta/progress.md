@@ -11,7 +11,6 @@ Overall Direction:
 ---
 
 Week 1 Plan:
-- [ ] 
 - [x] Work on [Student: feedback submission: distribution points question: explain if equal points are not allowed](https://github.com/TEAMMATES/teammates/issues/8817)
 - [x] Discuss with Cara further work to be done on Getting started guide and help docs
 
@@ -39,12 +38,12 @@ Week 3 Plan:
 - [x] Simplify views for complicated tasks by hiding details/advanced options
 
 Week 3 work:
-- [x] Created several mockups for simplifying different UI elements and pages. 
-		- Improving filtering interface on Students page
-		- Eliminating action buttons for each row in tables by building a row selection mechanism
-		- Proposed changes to constraints displayed for rank style questions to follow the same pattern as distribute points questions
-		- Using a slider to select min/max number of recipients in rank style questions
-- [x] Approved: [Student: feedback submission: distribution points question: explain if equal points are not allowed](https://github.com/TEAMMATES/teammates/pull/8836)
+  - [x] Created several mockups for simplifying different UI elements and pages. 
+  - Improving filtering interface on Students page
+  - Eliminating action buttons for each row in tables by building a row selection mechanism
+  - Proposed changes to constraints displayed for rank style questions to follow the same pattern as distribute points questions
+  - Using a slider to select min/max number of recipients in rank style questions
+  - [x] Approved: [Student: feedback submission: distribution points question: explain if equal points are not allowed](https://github.com/TEAMMATES/teammates/pull/8836)
 - [x] Worked on [Instructor: Add Course title to Student Details page](https://github.com/TEAMMATES/teammates/pull/8861) and implemented some further enhancements
 - [x] Halfway done with [Student: Feedback submission: Rank question: Improve explanation regarding ranking constraints](https://github.com/TEAMMATES/teammates/pull/8870). [8836](https://github.com/TEAMMATES/teammates/pull/8836) needs to be merged before this one can be finished due to dependencies
 
@@ -68,9 +67,9 @@ Week 5 Plan:
 
 Week 5 work:
 - [x] Added tests for following PRs:
-		- [Instructor: Add Course title to Student Details page](https://github.com/TEAMMATES/teammates/pull/8861)
-		- [Student: submit responses: use a more friendly way to choose evaluee](Student: submit responses: use a more friendly way to choose evaluee)
-		- [Instructor: edit MCQ question: give an easier way to reorder options](https://github.com/TEAMMATES/teammates/pull/8889)
+  - [Instructor: Add Course title to Student Details page](https://github.com/TEAMMATES/teammates/pull/8861)
+  - [Student: submit responses: use a more friendly way to choose evaluee](Student: submit responses: use a more friendly way to choose evaluee)
+  - [Instructor: edit MCQ question: give an easier way to reorder options](https://github.com/TEAMMATES/teammates/pull/8889)
 - [x] Fixed remaining issues. All PRs ready for review.
 
 Week 5 retrospect:

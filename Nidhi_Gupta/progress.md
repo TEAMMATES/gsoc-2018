@@ -93,11 +93,13 @@ Week 8 Plan:
 - [ ] Implement the ability for respondents to add comments for numerical-scale questions
 - [ ] Implement the ability for respondents to add comments for MSQ questions
 - [ ] Implement the ability for respondents to add comments for rank questions
+- [ ] Update UI for response comments
 - [ ] Add tests for trio
 
 Week 9 Plan:
 - [ ] Implement the ability for respondents to add comments for rubric questions
 - [ ] Implement the ability for respondents to add comments for distribute questions
+- [ ] Update UI for response comments
 - [ ] Add tests for both
 
 Week 10 Plan:

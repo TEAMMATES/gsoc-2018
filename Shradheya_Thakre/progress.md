@@ -51,17 +51,50 @@ During this week I created 4-5 PR's related to testing however only few were mer
 I think the review process slowed me down but also it let me catch up on the work that needed to be done in Week 1.
 
 Week 3 Plan:
-- [ ] Research  work on Upgrade to Selenium 3.x
-- [ ] Code Review and Fix
-- [ ] Work on improving stability of Tests
+- [x] Research  work on Upgrade to Selenium 3.x
+- [x] Code Review and Fix
+- [x] Work on improving stability of Tests
+
+Week 3 Work:
+
+- [x] Set up the initial Selenium upgrade
+- [x] Updated currently ongoing PR's based on review. #8845 #8891 and #8862
+- [x] Reviewed PR's of existing and new contributors. #8846 and #8881
+- [x] Investigated issues of problems arising in build and testing process. E.g. `AdminHomePageUiTest` and `InstructorStudentListPageUiTest`
+- [x] Fixed issue of instability of `SHomeUiT` and `SProfileUiT` which has reduced the build time
+
+Week 3 Retrospect:
+
+During this week I worked on initial set up for the Selenium 3.8 upgrade, however I have currently put it on pause as based on fixing a few tests, I realised that the build process will be eventually 40+ mins with the new geckodriver. Hence, I started working on improving stability of tests. This week I have fixed for `SHomeUiT` and `SProfileUiT` which has PR still in review process.
 
 Week 4 Plan:
 - [ ] Start work on Upgrade to Selenium 3.x
-- [ ] Work on improving readability of UI Tests (For e.g. the large amount of magic numbers)
+- [x] Work on improving stability of UI Tests
+
+Week 4 Work:
+
+- [x] Reviewed PR's of contributors (#8849) and helped resolve queries (#8861)
+- [x] Researched on JS Unit testing frameworks
+- [x] Investigated about more unstable tests
+
+Week 4 Retrospect:
+
+This week I focused more on learning Testing in-depth. It was mainly because in order to improve stability of tests, I needed to be sure that what I was doing actually worked and figuring out what was the reason of instability.
+Other than my own project, I also focused on other duties like helping other contributors with the problems that they faced in tests/build process. This helped me in finding more problems and working on solving them in future.
 
 Week 5 Plan:
 - [ ] Refactor `FeedbackRubricQuestionUiTest` and `FeedbackRankQuestionUiTest`
-- [ ] Continue unfinished work from previous week
+- [x] Continue unfinished work from previous week
+
+Week 5 Work:
+
+- [x] Work on post-release issue problems related to testing #8910 and #8911
+- [x] Find the Appveyor build issue and review the PR which fixed it #8913
+- [x] Continue making requested changes based on reviews
+
+Week 5 Retrospect:
+
+This week due to post release issues related to testing, I spent most of my time fixing them rather than working on the project plan as they were of higher priority. However, I plan to use the buffer's in future weeks to complete the work that I planned to finish this week.
 
 Week 6 Plan:
 - [ ] Buffer week to complete unfinished work and investigate more on where testing needs to be improved

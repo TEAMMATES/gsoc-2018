@@ -61,8 +61,14 @@ Adding tests was easiest part. I spent most of the time fixing the failing tests
 I utilised this time to try improve my code. I really enjoyed testing the new feature and I am looking forward to getting this PR merged by next week.
 
 Week 4 Plan:
-- [ ] Finish any remaining work from week 1-3
+- [x] Finish any remaining work from week 1-3
 - [ ] Fix issues after code review
+
+Works
+- Opened new issue and PR [Instructor: comment on responses: support entering comments for each response from view GQR #8872](https://github.com/TEAMMATES/teammates/pull/8897)
+
+Retrospect on Week 4:
+Code review couldn't be done in this week so I worked upon feature to support entering comments for each response from view Giver-Question-Recipient which was to be done in Week 10. It is almost done. Adding tests is remaining.
 
 Week 5 Plan:
 - [ ] Implement the ability for respondents to add comments for numerical-scale questions
@@ -70,25 +76,36 @@ Week 5 Plan:
 - [ ] Implement the ability for respondents to add comments for rank questions
 - [ ] Add tests for trio
 
+Works
+- Merged PR [Instructors: sessions page: fix 'resend link to view results'](https://github.com/TEAMMATES/teammates/pull/8827)
+- 3rd review ready [Student: view results: rank questions: show average](https://github.com/TEAMMATES/teammates/pull/8784#issuecomment-397224861)
+
+Retrospect on Week 5:
+First half of the week I majorly worked upon above mentioned PRs. I got review on main ongoing PR in second half of the week. I learnt I should remember to add Javadoc for majority of new functions that I add. There were some major changes suggested by mentor Xiao, which will take some time to implement. Since the PR is huge, many iterations of review is expected. I couldn't complete this week's plan because I underestimated the time required for reviewing and fixing code after that.
+
 Week 6 Plan:
-- [ ] Implement the ability for respondents to add comments for rubric questions
-- [ ] Implement the ability for respondents to add comments for distribute questions
-- [ ] Add tests for both
+- [ ] Code Review
 
 Week 7 Plan:
-- [ ] Finish any remaining work from week 4-6
-- [ ] Fix issues after code review
+- [ ] Code Review
 
 Week 8 Plan:
-- [ ] Buffer week for code review and code fix.
+- [ ] Implement the ability for respondents to add comments for numerical-scale questions
+- [ ] Implement the ability for respondents to add comments for MSQ questions
+- [ ] Implement the ability for respondents to add comments for rank questions
+- [ ] Update UI for response comments
+- [ ] Add tests for trio
 
 Week 9 Plan:
-- [ ] Ability for instructors to add comments from view, Recipient > Question > Giver
-- [ ] Write tests
+- [ ] Implement the ability for respondents to add comments for rubric questions
+- [ ] Implement the ability for respondents to add comments for distribute questions
+- [ ] Update UI for response comments
+- [ ] Add tests for both
 
 Week 10 Plan:
 - [ ] Ability for instructors to add comments from view, Giver > Question > Recipient.
-- [ ] Add tests
+- [ ] Ability for instructors to add comments from view, Recipient > Question > Giver
+- [ ] Add tests for both
 
 Week 11 Plan:
 - [ ] Finish any remaining work from week 8-10

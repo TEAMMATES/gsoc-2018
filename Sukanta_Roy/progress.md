@@ -78,17 +78,27 @@ Week 4 Retrospect:
 In this week, I worked on front-end part of MCQ weights and added necessary tests to it. Could not complete the calculation of statistics part within this week as working on JS functionalities and the tests took longer than what I had initially anticipated.
 
 Week 5 Plan:
-- [ ] Calculate more statistics for MCQ questions to show in the results page
-- [ ] Merge [Instructor: Results: Use separate result stats templates for MSQ questions instead of re-using MCQ templates](https://github.com/TEAMMATES/teammates/issues/8894) as it is blocking the calcualtion of statistics part.
-- [ ] Ensure that the CSV files include all data shown in the page for MCQ questions
-- [ ] Add necessary UI tests for results page for MCQ statistics.
-- [ ] Update documentation for MCQ questions in the `InstructorHelp` page
+- [x] Calculate more statistics for MCQ questions to show in the results page
+- [x] Merge [Instructor: Results: Use separate result stats templates for MSQ questions instead of re-using MCQ templates](https://github.com/TEAMMATES/teammates/issues/8894) as it is blocking the calcualtion of statistics part.
+- [x] Ensure that the CSV files include all data shown in the page for MCQ questions
+- [x] Add necessary UI tests for results page for MCQ statistics.
+- [x] Update documentation for MCQ questions in the `InstructorHelp` page
 - [ ] Implement the backend part of [MSQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/7281)
 	- [ ] Update `QuestionDetails` class
 - [ ] Code review and fix
 
+Week 5 Work:
+- [x] Merge [Instructor: Results: Use separate result stats templates for MSQ questions instead of re-using MCQ templates](https://github.com/TEAMMATES/teammates/issues/8894)
+- [x] Added Response Summary and Per Recipient summary for result pages
+- [x] Update CSV files to match the content of the result pages for MCQ questions.
+- [x] Update InstructorHelp page
+- [x] Add UI test for MCQ weights statistics in `FeedbackMcqQuestionUiTest.java`
+
+Week 5 Retrospect:
+In this week, I was finishing my work on MCQ weights feature, specifically the Statistics part, and updating the documentation parts. Though I initially thought I would be able to start working on the MSQ weight feature, but couldn't as the statistics part took a little more time than I thought would be sufficient.
+
 Week 6 Plan:
-- [ ] Implement the backend part of [MSQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/7281)
+- [x] Implement the backend part of [MSQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/7281)
 	- [ ] Add Corrosponding Unit and Integration tests
 - [ ] Implement the frontend part of [MSQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/7281)
 	- [ ] Update question template to add the new UI for MSQ weights
@@ -97,12 +107,37 @@ Week 6 Plan:
 	- [ ] Add frontend UI tests
 - [ ] If frontend and backend part for MSQ weights are finished, then add necessary UI tests and make the PR ready for review.
 - [ ] Update documentation for MSQ questions
-- [ ] Code review and fix
+- [x] Code review and fix
+
+Week 6 Work:
+- [x] Add `Weighted Percentage` instead of `Average` in MCQ stats
+- [x] Make changes as suggested in Code Review to make MCQ weight PR merge ready
+- [x] Finish the Backend part of MSQ weight feature.
+
+Week 6 Retrospect:
+This week I spent most of my time in Code review and fix, and also did the MSQ backend part. Though I am running behind my schedule I am sure to catch my within next week.
 
 Week 7 Plan:
-- [ ] Calculate more statistics for MSQ questions (Total, average for each student) to show in the results page
-- [ ] Ensure that the CSV files include all data shown in the page for MSQ questions
+- [x] Implement the frontend part of [MSQ questions: support attaching weights to options](https://github.com/TEAMMATES/teammates/issues/7281)
+	- [x] Update question template to add the new UI for MSQ weights
+	- [x] Add JS functionalities
+	- [x] Add necessary JS tests
+	- [x] Add frontend UI tests
+- [x] If frontend and backend part for MSQ weights are finished, then add necessary UI tests and make the PR ready for review.
+- [x] Update documentation for MSQ questions
+- [x] Calculate more statistics for MSQ questions (Total, average for each student) to show in the results page
+- [x] Ensure that the CSV files include all data shown in the page for MSQ questions
 - [ ] Code review and fix
+
+Week 7 Work:
+- [x] Created PR for MSQ weight feature: [Multiple-choice (multiple answers) questions: support weights for options #7281](https://github.com/TEAMMATES/teammates/pull/8917)
+- [x] Finish off front-end part of MSQ weights
+- [x] Added UI and end-to-end tests
+- [x] Added Response summary and Per recipient summary for MSQ statistics
+- [x] Reused MCQ result templates and removed redundant MSQ result templates to finish off [Instructor: Results: Use a common template to generate both MCQ and MSQ result stats](https://github.com/TEAMMATES/teammates/issues/8895) in MSQ PR itself.
+
+Week 7 Retrospect:
+This week, I mainly worked on MSQ weights feature and made it review ready. There was no major setbacks in this week.
 
 Week 8 Plan:
 - [ ] Buffer time to finish off any remaining work from past weeks and for code review and fixes

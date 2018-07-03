@@ -84,27 +84,42 @@ Retrospect on Week 5:
 First half of the week I majorly worked upon above mentioned PRs. I got review on main ongoing PR in second half of the week. I learnt I should remember to add Javadoc for majority of new functions that I add. There were some major changes suggested by mentor Xiao, which will take some time to implement. Since the PR is huge, many iterations of review is expected. I couldn't complete this week's plan because I underestimated the time required for reviewing and fixing code after that.
 
 Week 6 Plan:
-- [ ] Code Review
+- [x] Code Review
+
+Works
+- Worked majorly upon fixing code after reviews.
+
+Retrospect on Week 6:
+This week had a steep learning curve. Through code reviews, I learnt better coding practices. There were no major roadblocks.	
 
 Week 7 Plan:
-- [ ] Code Review
+- [x] Code Review
+
+Works
+- Worked majorly upon fixing code after reviews.
+- Review ready PR [Instructor: comment on responses: support entering comments for each response from view GQR #8872](https://github.com/TEAMMATES/teammates/pull/8897)
+- Opened PR [Instructor: Question view: visibility icon does not appear for new comments #8899](https://github.com/TEAMMATES/teammates/pull/8934)
+
+Retrospect on Week 7:
+Code looks clean now. I guess it would take some more time to get the main PR merged. I plan to work on this along with other issues related to comments feature.
 
 Week 8 Plan:
+- [ ] Code Review
+- [ ] Ability for instructors to add comments from view, Giver > Question > Recipient
+- [ ] Ability for instructors to add comments from view, Recipient > Question > Giver
+- [ ] Add tests for both
+
+Week 9 Plan:
 - [ ] Implement the ability for respondents to add comments for numerical-scale questions
 - [ ] Implement the ability for respondents to add comments for MSQ questions
 - [ ] Implement the ability for respondents to add comments for rank questions
 - [ ] Update UI for response comments
 - [ ] Add tests for trio
 
-Week 9 Plan:
+Week 10 Plan:
 - [ ] Implement the ability for respondents to add comments for rubric questions
 - [ ] Implement the ability for respondents to add comments for distribute questions
 - [ ] Update UI for response comments
-- [ ] Add tests for both
-
-Week 10 Plan:
-- [ ] Ability for instructors to add comments from view, Giver > Question > Recipient.
-- [ ] Ability for instructors to add comments from view, Recipient > Question > Giver
 - [ ] Add tests for both
 
 Week 11 Plan:

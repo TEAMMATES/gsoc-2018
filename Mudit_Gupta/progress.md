@@ -37,24 +37,43 @@ Week 5 Plan:
 - [ ] Fix issues after code review
 
 Week 6 Plan:
-- [ ] Mockups for enhancements to Getting started guide
-- [ ] Develop use cases/user stories + UI workflows for enhancements to Getting started guide
-- [ ] (In depth discussion to ensure common ground on design)
+- [x] Mockups for enhancements to Feedback session creation
+- [x] In depth discussion to ensure common ground on design
+- [x] Implement drag and drop feature for other question types
+
+Week 6 work:
+- [x] Created mockups for improvements to feedback session creation and managing advanced settings. Key ideas involved:
+- Progressive disclosure
+- Marking mandatory fields
+- Improving display of more information of advanced settings
+- Improving wording of text
+- [x] Implemented drag and drop feature for MSQ questions. Extended [Instructor: edit MCQ question: give an easier way to reorder options](https://github.com/TEAMMATES/teammates/pull/8889) to include MSQ questions.
+- [x] Implemented drag and drop feature for Rank questions. Extended [Student: feedback submission: distribution points question: explain if equal points are not allowed](https://github.com/TEAMMATES/teammates/pull/8836) to include Rank questions.
+
+Week 6 Retrospect:
+Had to spend some time resolving merge conflicts for drag and drop PR due to previous enhancements made to distribute points questions. 
 
 Week 7 Plan:
-- [ ]
-- [ ] Front end development for enhancements to Getting started guide
-- [ ] Writing Selenium tests
+- [x] Writing Selenium tests for drag and drop feature for MSQ and Rank questions
+- [x] Finish work on [Student: Feedback submission: Rank question: Improve explanation regarding ranking constraints](https://github.com/TEAMMATES/teammates/pull/8870)
+
+Week 7 Work:
+- [x] Added tests for MSQ and Rank questions for drag and drop feature. PRs [8889](https://github.com/TEAMMATES/teammates/pull/8889) and [8836](https://github.com/TEAMMATES/teammates/pull/8836) ready for review.
+- [x] Finished remaining work on PR [Student: Feedback submission: Rank question: Improve explanation regarding ranking constraints](https://github.com/TEAMMATES/teammates/pull/8870) after merging of [8836](https://github.com/TEAMMATES/teammates/pull/8836). Added tests as well
+- [x] Researched into implementation of search feature for instructor help page.
+
+Week 7 retrospect:
+This week involved finishing the drag and drop functionality for all question types (except Rubric). Everything was ready for review but later merge conflicts were reported again due to another contributor working on enhancing MCQ questions as well. I started researching into the implementation of a search feature for instructor help page.
 
 Week 8 Plan:
-- [ ]
-- [ ] Writing remaining Selenium tests (if any) and create PR
-- [ ] Code review and fix front end issues
+- [ ] Create mockups for search feature
+- [ ] Implement initial working prototype of search feature
+- [ ] Code review and fix merge conflicts with earlier PRs
 
 Week 9 Plan:
-- [ ]
-- [ ] Buffer period to resolve pending work from week 6-8
-- [ ] Fix issues after code review
+- [ ] Buffer period to resolve pending issues from week 6-8
+- [ ] Optimize search function to return more relevant results
+- [ ] Add tests for search feature 
 
 Week 10 Plan:
 - [ ]

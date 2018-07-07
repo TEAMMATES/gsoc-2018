@@ -6,11 +6,16 @@ Overall Direction:
 - Provide Context specific help
 - Improve Getting Started guide
 - Improve documentation structure
+<<<<<<< HEAD
+=======
+- Sidebar for sections of instructor help (to be discussed)
+>>>>>>> master
 - Resolve UI/UX issues
 
 ---
 
 Week 1 Plan:
+<<<<<<< HEAD
 - [x] Work on [Student: feedback submission: distribution points question: explain if equal points are not allowed](https://github.com/TEAMMATES/teammates/issues/8817)
 - [x] Discuss with Cara further work to be done on Getting started guide and help docs
 
@@ -75,6 +80,31 @@ Week 5 work:
 Week 5 retrospect:
 I had initally planned on finishing tests by week 4 for all enhancements so far but due to debugging issues, adding tests was mostly done in this week. Adding tests for MCQ questions reorder options took a while. Simulating drag and drop behaviour was tricky since the widget being used requires the option to be dragged slowly to the target location for the grid to shift. Selenium's drag and drop API is instantaneous which doesn't change the grid structure at all and the test fails. I tried emulating a slow drag movement by doing multiple small movements to target instead of one single instantaneous movement.
 
+=======
+- [ ] 
+- [ ] Work on [Student: feedback submission: distribution points question: explain if equal points are not allowed](https://github.com/TEAMMATES/teammates/issues/8817)
+- [ ] Discuss with Cara further work to be done on Getting started guide and help docs
+
+Week 2 Plan:
+- [ ] Front end development for sidebar of instructor help (to be discussed)
+- [ ] UI Enhancements for Distribute points style questions
+- [ ] Write browser tests for enhancements
+
+Week 3 Plan:
+- [ ] Solve UX issues on the side
+- [ ] Simplify views for complicated tasks by hiding details/advanced options
+- [ ] Write tests for new views
+
+Week 4 Plan:
+- [ ]
+- [ ] Finding remaining views that need simplification and fixing those
+- [ ] Write remaining tests
+
+Week 5 Plan:
+- [ ]
+- [ ] Buffer period to resolve pending work from week 1-4
+- [ ] Fix issues after code review
+>>>>>>> master
 
 Week 6 Plan:
 - [ ] Mockups for enhancements to Getting started guide

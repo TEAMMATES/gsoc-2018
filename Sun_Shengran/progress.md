@@ -3,8 +3,8 @@
 **Project: Recycle Bin**
 
 Overall Direction:
-- Build a recovery page for instructors to display user deleted courses, sessions and students
-- Allow instructors to recover deleted courses, sessions and students from the recycle bin
+- Build a recovery page for instructors to display user deleted courses and sessions (whose corresponding courses are not deleted)
+- Allow instructors to recover selected/all courses and sessions from the recycle bin
 - Allow instructors to permanently remove selected/all items from the recycle bin
 - Build UI presentation for the deleted items and relevant functions
 - Auto remove items from the recycle bin after a certain period
@@ -13,12 +13,12 @@ Overall Direction:
 ---
 
 Week 1 Plan:
-- [ ] Build UI frame/structure for displaying of deleted courses, sessions and students
+- [ ] Build UI frame/structure for displaying of deleted courses and sessions
 - [ ] Create fake deleted items data for the acceptance testing of UI
 
 Week 2 Plan:
-- [ ] Add new attribute "deletedDate" for courses, sessions and students
-- [ ] Modify relevant tests for courses, sessions and students
+- [ ] Add new attribute "deletedDate" for courses and sessions
+- [ ] Modify relevant tests for courses and sessions
 
 Week 3 Plan:
 - [ ] Modify instructor delete items features by setting "deletedDate" without actually deleting the items
@@ -36,22 +36,22 @@ Week 5 Plan:
 
 Week 6 Plan:
 - [ ] Implement feature to allow users to delete selected items from recycle bin
-- [ ] Implement feature to allow users to delete all courses/sessions/students from recycle bin
+- [ ] Implement feature to allow users to delete all courses/sessions from recycle bin
 - [ ] Build UI presentation for deleting items
 
 Week 7 Plan:
-- [ ] Add tests for "Delete" & "Clear All" features
+- [ ] Add tests for "Delete Permanently" & "Delete All Courses/Sessions" features
 - [ ] Complete any work left from the last week
 
 Week 8 Plan:
-- [ ] Implement feature to allow users to restore selected courses (including corresponding sessions & students) from recycle bin
+- [ ] Implement feature to allow users to restore selected/all courses (including corresponding sessions & students) from recycle bin
 - [ ] Build UI presentation for restoring items
-- [ ] Add tests for "Restore" of courses features
+- [ ] Add tests for "Restore" & "Restore All Courses" of courses features
 
 Week 9 Plan:
-- [ ] Implement feature to allow users to restore selected sessions/students (if corresponding courses are not deleted) from recycle bin
+- [ ] Implement feature to allow users to restore selected/all sessions and student responses (if corresponding courses are not deleted) from recycle bin
 - [ ] Build UI presentation for restoring items
-- [ ] Add tests for "Restore" of sessions & students features
+- [ ] Add tests for "Restore" & "Restore All Sessions" of sessions features
 
 Week 10 Plan:
 - [ ] Add some documentation for current Recycle Bin feature in instructors help page

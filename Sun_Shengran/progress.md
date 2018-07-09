@@ -13,44 +13,109 @@ Overall Direction:
 ---
 
 Week 1 Plan:
-- [ ] Build UI frame/structure for displaying of deleted courses and sessions
-- [ ] Create fake deleted items data for the acceptance testing of UI
+- [x] Build UI frame/structure for displaying of deleted courses and sessions
+- [x] Create fake deleted items data for the acceptance testing of UI
+
+Week 1 Work:
+
+- [x] Created PR #8835 [Instructor: recycle bin feature: add instructor recovery page mock up #8834](https://github.com/TEAMMATES/teammates/pull/8835)
+
+Week 1 Retrospect:
+
+This week I built an instructor recovery page and created some fake courses/sessions data for UI testing before the actual development. Since I was new to JSP, it took me some time to figure out how to create a new page and navigate to it by clicking the label on nav bar.
 
 Week 2 Plan:
-- [ ] Add new attribute "deletedDate" for courses and sessions
-- [ ] Modify relevant tests for courses and sessions
+- [x] Add new attribute "deletedDate" for courses and sessions
+- [x] Modify relevant tests for courses and sessions
+
+Week 2 Work:
+
+- NA
+
+Week 2 Retrospect:
+
+This week I created a new attribute "deletedAt" in storage for "Courses" and set the value every time user deleted a course instead of actually deleting it. I also managed to create a Recycle Bin table layout for deleted courses in instructor recovery page. The major difficulty I faced this week is that the new attribute I created cannot be updated, thus the courses deleted by user cannot be shown in Recycle Bin. But later I found out that instead of actually updating the course, it creates a new course and add it directly to the datastore.
 
 Week 3 Plan:
-- [ ] Modify instructor delete items features by setting "deletedDate" without actually deleting the items
-- [ ] Display only not deleted items ("deletedDate" is null) to users
-- [ ] Modify relevant tests for instructors displaying & deleting of items
+- [x] Modify instructor delete items features by setting "deletedDate" without actually deleting the items
+- [x] Display only not deleted items ("deletedDate" is null) to users
+- [x] Modify relevant tests for instructors displaying & deleting of items
+
+Week 3 Work:
+
+- [x] Created PR #8853 [Instructor: recycle bin feature: allow restore and delete courses in recovery page #8852](https://github.com/TEAMMATES/teammates/pull/8853)
+
+Week 3 Retrospect:
+
+This week I deleted instructor recovery page and move the Recycle Bin for courses to instructor courses page due to Prof's suggestion. Also, I implemented actions for restoring & permanently deleting a single course. No major difficulties encountered.
 
 Week 4 Plan:
-- [ ] Display the actual deleted items in the recovery page
+- [x] Display the actual deleted items in the recovery page
 - [ ] Add UI tests for the recovery page
 
+Week 4 Work:
+
+- [x] Committed to PR #8853 [Instructor: recycle bin feature: allow restore and delete courses in recovery page #8852](https://github.com/TEAMMATES/teammates/pull/8853)
+
+Week 4 Retrospect:
+
+This week I implemented actions for restoring & permanently deleting all courses in Recycle Bin. The major difficulty I faced this week is making a panel for deleted courses table. Since I wasn't quite familiar with JavaScript, I was not able to control the icon and buttons on the panel heading. By this time, the whole feature of Recycle Bin for courses is done.
+
 Week 5 Plan:
-- [ ] Add some documentation for current Recycle Bin feature in instructors help page
-- [ ] Complete any work left from past weeks
-- [ ] Buffer time for review and iterations
+- [x] Add some documentation for current Recycle Bin feature in instructors help page
+- [x] Complete any work left from past weeks
+- [x] Buffer time for review and iterations
+
+Week 5 Work:
+
+- [x] Committed to PR #8853 [Instructor: recycle bin feature: allow restore and delete courses in recovery page #8852](https://github.com/TEAMMATES/teammates/pull/8853)
+
+Week 5 Retrospect:
+
+This week I created a new attribute "deletedTime" in storage for "Feedback Sessions" and set the value every time user deleted a session instead of actually deleting it. I also managed to create a Recycle Bin table layout for deleted feedback sessions in instructor feedback sessions page. No major difficulties encountered.
 
 Week 6 Plan:
-- [ ] Implement feature to allow users to delete selected items from recycle bin
-- [ ] Implement feature to allow users to delete all courses/sessions from recycle bin
-- [ ] Build UI presentation for deleting items
+- [x] Implement feature to allow users to delete selected items from recycle bin
+- [x] Implement feature to allow users to delete all courses/sessions from recycle bin
+- [x] Build UI presentation for deleting items
+
+Week 6 Work:
+
+- [x] Created PR #8907 [Instructor: recycle bin feature: allow restore and delete sessions in instructor feedback sessions page #8906](https://github.com/TEAMMATES/teammates/pull/8907)
+
+Week 6 Retrospect:
+
+This week I implemented actions for restoring & permanently deleting single/all feedback sessions in Recycle Bin. By this time, the whole feature of Recycle Bin for feedback sessions is done. No major difficulties encountered. Waiting for review.
 
 Week 7 Plan:
 - [ ] Add tests for "Delete Permanently" & "Delete All Courses/Sessions" features
-- [ ] Complete any work left from the last week
+- [x] Complete any work left from the last week
+
+Week 7 Work:
+
+- [x] Committed to PR #8907 [Instructor: recycle bin feature: allow restore and delete sessions in instructor feedback sessions page #8906](https://github.com/TEAMMATES/teammates/pull/8907)
+- [x] Committed to PR #8853 [Instructor: recycle bin feature: allow restore and delete courses in recovery page #8852](https://github.com/TEAMMATES/teammates/pull/8853)
+
+Week 7 Retrospect:
+
+This week I managed to add a panel for both deleted courses and deleted feedback sessions. I moved action buttons for all courses/sessions to the panel heading, similar to instructor home page & student list page to avoid confusion. No major difficulties encountered. Waiting for review.
 
 Week 8 Plan:
-- [ ] Implement feature to allow users to restore selected/all courses (including corresponding sessions & students) from recycle bin
-- [ ] Build UI presentation for restoring items
+- [x] Implement feature to allow users to restore selected/all courses (including corresponding sessions & students) from recycle bin
+- [x] Build UI presentation for restoring items
 - [ ] Add tests for "Restore" & "Restore All Courses" of courses features
 
+Week 8 Work:
+
+- [x] Created PR #8928 [Instructor: recycle bin feature: add instructions for managing deleted courses in instructor help page #8927](https://github.com/TEAMMATES/teammates/pull/8928)
+
+Week 8 Retrospect:
+
+This week I added instructions in instructor help page on the management (i.e. viewing deleted courses, restoring courses, permanently deleting courses) of Recycle Bin for courses. No major difficulties encountered. Waiting for review.
+
 Week 9 Plan:
-- [ ] Implement feature to allow users to restore selected/all sessions and student responses (if corresponding courses are not deleted) from recycle bin
-- [ ] Build UI presentation for restoring items
+- [x] Implement feature to allow users to restore selected/all sessions and student responses (if corresponding courses are not deleted) from recycle bin
+- [x] Build UI presentation for restoring items
 - [ ] Add tests for "Restore" & "Restore All Sessions" of sessions features
 
 Week 10 Plan:

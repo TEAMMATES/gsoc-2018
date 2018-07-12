@@ -34,7 +34,7 @@ Week 2 Work:
 
 Week 2 Retrospect:
 
-This week I created a new attribute "deletedAt" in storage for "Courses" and set the value every time user deleted a course instead of actually deleting it. I also managed to create a Recycle Bin table layout for deleted courses in instructor recovery page. The major difficulty I faced this week is that the new attribute I created cannot be updated, thus the courses deleted by user cannot be shown in Recycle Bin. But later I found out that instead of actually updating the course, it creates a new course and add it directly to the datastore.
+This week I created a new attribute "deletedAt" in storage for "Courses", and set the value of "deletedAt" every time user deleted a course instead of actually deleting it. I also managed to create a Recycle Bin table layout for deleted courses in instructor recovery page. The major difficulty I faced this week is that the new attribute I created cannot be updated, thus the courses deleted by user cannot be shown in Recycle Bin. But later I found out that instead of actually updating the attributes in course, "updateCourse" method creates a new course and adds this course directly to the datastore.
 
 Week 3 Plan:
 - [x] Modify instructor delete items features by setting "deletedDate" without actually deleting the items
@@ -47,7 +47,7 @@ Week 3 Work:
 
 Week 3 Retrospect:
 
-This week I deleted instructor recovery page and move the Recycle Bin for courses to instructor courses page due to Prof's suggestion. Also, I implemented actions for restoring & permanently deleting a single course. No major difficulties encountered.
+This week I deleted instructor recovery page and moved the Recycle Bin for courses to instructor courses page due to Prof's suggestion. Also, I implemented actions for restoring & permanently deleting a single course. No major difficulties encountered.
 
 Week 4 Plan:
 - [x] Display the actual deleted items in the recovery page

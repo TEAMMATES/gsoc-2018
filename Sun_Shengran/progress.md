@@ -118,10 +118,24 @@ Week 9 Plan:
 - [x] Build UI presentation for restoring items
 - [ ] Add tests for "Restore" & "Restore All Sessions" of sessions features
 
+Week 9 Work:
+
+- [x] Merged PR #8853 [Instructor: recycle bin feature: allow restore and delete courses in recovery page #8852](https://github.com/TEAMMATES/teammates/pull/8853)
+- [x] Created PR #8953 [Instructor: recycle bin feature: add tests for deleting & restoring of courses #8952](https://github.com/TEAMMATES/teammates/pull/8953)
+- [x] Committed to PR #8907 [Instructor: recycle bin feature: allow restore and delete sessions in instructor feedback sessions page #8906](https://github.com/TEAMMATES/teammates/pull/8907)
+
+Week 9 Retrospect:
+
+This week I have written tests for Recycle Bin feature in Instructor Courses Page. During the process I found some issues & bugs on access control. Thus, I modified the methods for checking instructor privileges in action files (i.e. `InstructorCourseRestoreAllRecoveryCoursesAction.java`). I also managed to disable delete/restore (all) buttons if instructor does not have the corresponding privilege. No major difficulties encountered.
+
 Week 10 Plan:
 - [ ] Add some documentation for current Recycle Bin feature in instructors help page
 - [ ] Complete any work left from past weeks
 - [ ] Buffer time for review and iterations
+
+Week 10 Work:
+
+- [x] Created PR #8965 [Instructor: recycle bin feature: add instructions for managing deleted sessions in instructor help page #8964](https://github.com/TEAMMATES/teammates/pull/8965)
 
 Week 11 Plan:
 - [ ] Implement auto-purging feature to check the deleted items and remove them once expired

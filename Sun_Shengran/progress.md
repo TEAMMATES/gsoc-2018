@@ -136,6 +136,10 @@ Week 10 Plan:
 Week 10 Work:
 
 - [x] Created PR #8965 [Instructor: recycle bin feature: add instructions for managing deleted sessions in instructor help page #8964](https://github.com/TEAMMATES/teammates/pull/8965)
+- [x] Created PR #8969 [Instructor: recycle bin feature: add tests for deleting & restoring of sessions #8968](https://github.com/TEAMMATES/teammates/pull/8969)
+- [x] Merged PR #8967 [Instructor Home Page: Hide options for instructors without corresponding privileges #8962](https://github.com/TEAMMATES/teammates/pull/8967)
+
+Week 10 Retrospect:
 
 Week 11 Plan:
 - [ ] Implement auto-purging feature to check the deleted items and remove them once expired

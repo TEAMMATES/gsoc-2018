@@ -129,17 +129,21 @@ Week 9 Retrospect:
 This week I have written tests for Recycle Bin feature in Instructor Courses Page. During the process I found some issues & bugs on access control. Thus, I modified the methods for checking instructor privileges in action files (i.e. `InstructorCourseRestoreAllRecoveryCoursesAction.java`). I also managed to disable delete/restore (all) buttons if instructor does not have the corresponding privilege. No major difficulties encountered.
 
 Week 10 Plan:
-- [ ] Add some documentation for current Recycle Bin feature in instructors help page
-- [ ] Complete any work left from past weeks
-- [ ] Buffer time for review and iterations
+- [x] Add some documentation for current Recycle Bin feature in instructors help page
+- [x] Complete any work left from past weeks
+- [x] Buffer time for review and iterations
 
 Week 10 Work:
 
 - [x] Created PR #8965 [Instructor: recycle bin feature: add instructions for managing deleted sessions in instructor help page #8964](https://github.com/TEAMMATES/teammates/pull/8965)
 - [x] Created PR #8969 [Instructor: recycle bin feature: add tests for deleting & restoring of sessions #8968](https://github.com/TEAMMATES/teammates/pull/8969)
 - [x] Merged PR #8967 [Instructor Home Page: Hide options for instructors without corresponding privileges #8962](https://github.com/TEAMMATES/teammates/pull/8967)
+- [x] Merged PR #8973 [InstructorHomePageUiTest & InstructorCoursesPageUiTest failing on 'recycling-bin' branch #8971](https://github.com/TEAMMATES/teammates/pull/8973)
+- [x] Merged PR #8975 [InstructorHomePageUiTest & InstructorCoursesPageUiTest failing due to rebase errors #8971](https://github.com/TEAMMATES/teammates/pull/8975)
 
 Week 10 Retrospect:
+
+This week I added instructions in instructor help page on the management (i.e. viewing deleted sessions, restoring deleted sessions, permanently deleting sessions) of Recycle Bin for feedback sessions. I have also finished adding tests for Recycle Bin feature in Instructor Feedback Sessions Page. Some tests failed (on `recycling-bin` branch) on Travis CI & Appveyor this week, but I've managed to fix them. No major difficulties encountered.
 
 Week 11 Plan:
 - [ ] Implement auto-purging feature to check the deleted items and remove them once expired

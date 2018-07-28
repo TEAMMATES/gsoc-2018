@@ -104,35 +104,63 @@ Retrospect on Week 7:
 Code looks clean now. I guess it would take some more time to get the main PR merged. I plan to work on this along with other issues related to comments feature.
 
 Week 8 Plan:
-- [ ] Code Review
-- [ ] Ability for instructors to add comments from view, Giver > Question > Recipient
-- [ ] Ability for instructors to add comments from view, Recipient > Question > Giver
-- [ ] Add tests for both
+- [x] Code Review
+- [x] Ability for instructors to add comments from view, Giver > Question > Recipient
+- [x] Add tests
+- [x] Work on adding visibility icon to all comments
+
+Works
+- Review ready PR [Instructor: Question view: visibility icon does not appear for new comments #8899](https://github.com/TEAMMATES/teammates/pull/8934)
+
+Retrospect on Week 8:
+I faced two difficulties this week. First one, I encountered lots of unrelated errors after pulling from master. There were updates in development packages. It was some problem caused by intelliJ. Second being failing test on master branch. My mentors helped me solve both the issues quickly so that time is not wasted. And both of them were related to intelliJ. Apart from this, no other major setbacks.
 
 Week 9 Plan:
+- [x] Fix backward compatibility issues in #8830 (Comments on responses)
+- [x] Improve implementation of #8872 (GQR)
+
+Works
+- Merged PR [Instructor: Question view: visibility icon does not appear for new comments #8899](https://github.com/TEAMMATES/teammates/pull/8934)
+
+Retrospect on Week 9:
+This week I worked upon making comments on responses PR backward compatible. I enjoyed discussing with mentors about ways we can ensure that legacy data is handled. I saw few of the old data migration scripts which was pretty amazing. I previously thought that data migration is something extremely complicated. But now I wish to write one myself for comments feature in future. In my GQR PR, there were logic holes in my previous implementation which got discovered during review. So I think I need to be more careful and think deeply so as to avoid writing bad logic in future.
+
+Week 10 Plan:
+- [x] Separate tag and js files for feedback participant comments feature #8830 (Comments on responses)
+- [x] Refactor tests for #8872 (GQR)
+- [x] Add tests for #8701 (Show average rank)
+- [x] Add unit tests for #8830 (Comments on responses)
+
+Works
+- Merged PR [Student: view results: rank questions: show average #8701](https://github.com/TEAMMATES/teammates/pull/8784)
+
+Retrospect on Week 10:
+This week I worked upon separating feedback participant comments from instructor comments completely. It simplified the implementation of comment indexes. I also wrote lots of unit tests for all the new methods that I introduced in my multiple PRs. I feel more confident about writing tests at the end of this week. No major difficulties encountered.
+
+Week 11 Plan:
+- [x] Modify UI of feedback participant comments feature #7239 (Comments on responses)
+- [x] Finish any remaining work from week 8-10
+- [x] Ability for instructors to add comments from view, Recipient > Question > Giver
+
+Works
+- Merged PR [Instructor: comment on responses: support entering comments for each response from view GQR #8872 ](https://github.com/TEAMMATES/teammates/pull/8897)
+- Merged PR [Instructor: comment on responses: support entering comments for each response from view RQG #8987 ](https://github.com/TEAMMATES/teammates/pull/8992)
+
+Retrospect on Week 11:
+This week was great. I finished work on supporting entering comments from views GQR and RQG. I gave final touches to main comments PR, which will mostly be approved after few rounds of reviews. No major setbacks.
+
+Week 12 Plan:
+- [ ] Code review
+
+Week 13 Plan:
 - [ ] Implement the ability for respondents to add comments for numerical-scale questions
 - [ ] Implement the ability for respondents to add comments for MSQ questions
 - [ ] Implement the ability for respondents to add comments for rank questions
-- [ ] Update UI for response comments
+- [ ] Update UI (if required)
 - [ ] Add tests for trio
 
-Week 10 Plan:
+Week 14 Plan:
 - [ ] Implement the ability for respondents to add comments for rubric questions
 - [ ] Implement the ability for respondents to add comments for distribute questions
-- [ ] Update UI for response comments
+- [ ] Update UI (if required)
 - [ ] Add tests for both
-
-Week 11 Plan:
-- [ ] Finish any remaining work from week 8-10
-- [ ] Fix issues after code review
-- [ ] Implement backend of ability for instructors to disable comments
-
-Week 12 Plan:
-- [ ] Implement frontend of ability for instructors to disable comments
-- [ ] Add tests
-
-Week 13 Plan:
-- [ ] Code review and code fix
-
-Week 14 Plan:
-- [ ] Code review and code fix

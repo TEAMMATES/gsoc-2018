@@ -150,6 +150,16 @@ Week 11 Plan:
 - [ ] Trigger the event every time when user clicks on the recovery page
 - [ ] Show message to user whether the recycle bin has been auto-updated, which items are expired and therefore permanently deleted
 
+Week 11 Work:
+
+- [x] Merged PR #8928 [Instructor: recycle bin feature: add instructions for managing deleted courses in instructor help page #8927](https://github.com/TEAMMATES/teammates/pull/8928)
+- [x] Committed to PR #8907 [Instructor: recycle bin feature: allow restore and delete sessions in instructor feedback sessions page #8906](https://github.com/TEAMMATES/teammates/pull/8907)
+- [x] Committed to PR #8953 [Instructor: recycle bin feature: add tests for deleting & restoring of courses #8952](https://github.com/TEAMMATES/teammates/pull/8953)
+
+Week 11 Retrospect:
+
+This week I've been focusing on fixing issues in my PRs due to mentors' comments. No major difficulties encountered.
+
 Week 12 Plan:
 - [ ] Add tests for the auto-purging feature
 - [ ] Complete any work left from the last week

@@ -120,8 +120,8 @@ Week 9 Plan:
 
 Week 9 Work:
 
-- [x] Merged PR #8853 [Instructor: recycle bin feature: allow restore and delete courses in recovery page #8852](https://github.com/TEAMMATES/teammates/pull/8853)
 - [x] Created PR #8953 [Instructor: recycle bin feature: add tests for deleting & restoring of courses #8952](https://github.com/TEAMMATES/teammates/pull/8953)
+- [x] Merged PR #8853 [Instructor: recycle bin feature: allow restore and delete courses in recovery page #8852](https://github.com/TEAMMATES/teammates/pull/8853)
 - [x] Committed to PR #8907 [Instructor: recycle bin feature: allow restore and delete sessions in instructor feedback sessions page #8906](https://github.com/TEAMMATES/teammates/pull/8907)
 
 Week 9 Retrospect:

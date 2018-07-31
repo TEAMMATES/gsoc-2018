@@ -140,32 +140,77 @@ Week 7 Retrospect:
 This week, I mainly worked on MSQ weights feature and made it review ready. There was no major setbacks in this week.
 
 Week 8 Plan:
-- [ ] Buffer time to finish off any remaining work from past weeks and for code review and fixes
+- [x] Buffer time to finish off any remaining work from past weeks and for code review and fixes
 - [ ] Merge [Instructor: Results: Use a common template to generate both MCQ and MSQ result stats](https://github.com/TEAMMATES/teammates/issues/8895)
+
+Week 8 Work:
+- [x] Code Review and Fix
+- [x] Added the fix for [Instructor: Results: Use a common template to generate both MCQ and MSQ result stats](https://github.com/TEAMMATES/teammates/issues/8895) in [Multiple-choice (multiple answers) questions: support weights for options #7281](https://github.com/TEAMMATES/teammates/pull/8917) PR instead of submitting a separate PR.
+
+Week 8 Retrospect:
+This week was mostly spent on MSQ weights PR's code review and fix. We stumbled upon a small roadblock this week, where me and my mentors mistakenly thought that we no longer support the `None of the Above` option in MSQ question, and to find out if the legacy data was migrated or not I had to write a migration script, but as I am not very familiar with `Objectify`, it took me a lot of time to learn about it. But later we realised that we still support the `None of the Above` option for MSQ questions and that is why the data migration never happened. It was my novice mistake to not check first before jumping on to write the migration script as it took a lot of valuable time, but on the positive side it helped me become familiar with the `Objectify` API which I will anyway need for Rubric question's data migration.
 
 Week 9 Plan:
 - [ ] Implement the backend for [Rubric questions: allow weightages for sub questions](https://github.com/TEAMMATES/teammates/issues/7224)
-	- [ ] Update `QuestionDetails` class
+	- [x] Update `QuestionDetails` class
 	- [ ] Update `Logic` class
 	- [ ] Update `Action` class
 	- [ ] Add Corrosponding Unit and Integration tests
-- [ ] Code review and fix
+- [x] Code review and fix
 - [ ] Implement the frontend for [Rubric questions: allow weightages for sub questions](https://github.com/TEAMMATES/teammates/issues/7224)
 	- [ ] Update question template to add weights on each cell
 
+Week 9 Work:
+- [x] Code Fix for [Multiple-choice (multiple answers) questions: support weights for options #7281](https://github.com/TEAMMATES/teammates/pull/8917)
+- [x] Submitted PR for [Student: submit responses: implement back-end integrity check for responses #2542](https://github.com/TEAMMATES/teammates/pull/8956)
+- [x] Updated Rubric `QuestionDetails` class to add required methods needed to support Rubric weights for each cell.
+
+Week 9 Retrospect:
+This week I fell behind schedule a big time, as initially I was very confused on how to write code that will both work on legacy data and new data, for that I created a demo branch to try and test what will work and what may not. This took a lot of time and I fell behind my schedule. At the end of this week I submitted the [Rubric weight PR](https://github.com/TEAMMATES/teammates/pull/8961).
+
 Week 10 Plan:
+- [ ] Implement the backend for [Rubric questions: allow weightages for sub questions](https://github.com/TEAMMATES/teammates/issues/7224)
+	- [x] Update `Logic` class
+	- [x] Update `Action` class
+	- [x] Add Corrosponding Unit and Integration tests
 - [ ] Implement the remaining frontend part of Rubric questions weights for each cell
+	- [x] Update question template to add weights on each cell
 	- [ ] Add JS functionalities
 	- [ ] Add JS tests
 	- [ ] Add Partial UI tests (Only the frontend part)
 - [ ] If frontend and backend part are finished, then add necessary UI tests (with backend validations) and make the PR ready for review.
-- [ ] Code review and fix
+- [x] Code review and fix
+
+Week 10 Work:
+- [x] Completed Rubric backend part
+- [x] Modified Rubric form to add weight fields for each cell
+- [x] Code Review and Fix for [Student: submit responses: implement back-end integrity check for responses #2542](https://github.com/TEAMMATES/teammates/pull/8956)
+- [x] Merged [Multiple-choice (multiple answers) questions: support weights for options #7281](https://github.com/TEAMMATES/teammates/pull/8917)
+- [x] Fixed [Instructor: Results: Use a common template to generate both MCQ and MSQ result stats](https://github.com/TEAMMATES/teammates/issues/8895)
+
+Week 10 Retrospect:
+This week I completed Rubric backend part and also modified rubric form to support weights for each cell. MSQ weight PR was approved this week and was merged into the `master` branch.
 
 Week 11 Plan:
-- [ ] Update documentation for Rubric question in the `InstructorHelp` page.
-- [ ] Buffer week to finish off any remaining work from past weeks and for code review and fix
+- [x] Implement the remaining frontend part of Rubric questions weights for each cell
+	- [x] Add JS functionalities
+	- [x] Add Partial UI tests (Only the frontend part)
+- [x] If frontend and backend part are finished, then add necessary UI tests (with backend validations) and make the PR ready for review.
+- [x] Modify Rubric statistics page
+- [x] Update documentation for Rubric question in the `InstructorHelp` page.
+
+Week 11 Work:
+- [x] Completed the front-end part Rubric weights
+- [x] Modified Rubric Statistics page
+- [x] Updated `InstructorHelp` page.
+- [x] Code Review and fix for [Student: submit responses: implement back-end integrity check for responses #2542](https://github.com/TEAMMATES/teammates/pull/8956)
+- [x] Wrote a script to check if the datastore has questions with negative weights so that we can decide whether to support negative weights or to block it.
+
+Week 11 Retrospect:
+This week I made Rubric weights PR review ready. We faced a problem this week where we had to decide whether we should continue to support negative weights for rubric questions or should we block negative weights as negative weights make the `Weighted Percentage` stats useless. For that I wrote a script to check how many questions have negative weights and based on the results of that script we decided to exclude `Weighted Percentage` from Rubric questions, as there are questions with negative weights in the production indicating that it is an used feature which we should not remove. Other than this there were no major roadblocks this week.
 
 Week 12 Plan:
+- [ ] Finalize the set of questions that will be added as a template
 - [ ] Implement the backend part of the new question template
 - [ ] Code review and fix
 

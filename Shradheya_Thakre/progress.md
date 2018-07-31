@@ -97,15 +97,48 @@ Week 5 Retrospect:
 This week due to post release issues related to testing, I spent most of my time fixing them rather than working on the project plan as they were of higher priority. However, I plan to use the buffer's in future weeks to complete the work that I planned to finish this week.
 
 Week 6 Plan:
-- [ ] Buffer week to complete unfinished work and investigate more on where testing needs to be improved
+- [x] Buffer week to complete unfinished work and investigate more on where testing needs to be improved
+
+Week 6 Work: 
+
+- [x] Buffer week to complete unfinished work and investigate more on where testing needs to be improved
+- [x] Reviewing PR's by contributor
+- [x] Management work for TEAMMATES
+- [x] Helping other contributor with queries and figuring out how to solve issues for developers
+- [x] Continue making requested changes based on reviews
+
+Week 6 Retrospect:
+
+This week as planned was left to complete left over work and work on reviews provided by mentors. This buffer time helped in finishing old PR's and merge them.
 
 Week 7 Plan:
-- [ ] Add more tests for `InstructorSearchPage` and similar files
-- [ ] Refactor more testing code and improve stability
+- [x] Add more tests for ~`InstructorSearchPage`~ and similar files
+- [x] Refactor more testing code and improve stability
+
+Week 7 Work:
+
+- [x] Refactor more testing code and improve stability
+- [x] Merged PR: FeedbackRankQuestionUiTest.json: Fix data for Tests #8794
+- [x] Merged PR: Add test for scrolling function
+- [x] Merged PR: InstructorCourseDetailsPageUiTest: testing on live server: increase success rate for checking email delivery #7788 
+
+Week 7 Retrospect:
+
+Some tests which are untable have been fixed and have ongoing PR with minor changes left to be made before they can be merged. These took long to merge as it took time to understand the reasoning and ensure that they become stable after using the workaround. In future more PR's of similar kind will be made to improve stability.
 
 Week 8 Plan:
-- [ ] Investigate on why certain tests require to be run extra time to pass
-- [ ] Improve stability of fragile tests
+- [x] Investigate on why certain tests require to be run extra time to pass
+- [x] Improve stability of fragile tests
+
+Week 8 Work:
+
+- [x] Work on testing errors on live production server
+- [x] Fix assertion error in instructorCourseJoinEmail on live server #8452
+- [x] EmailGeneratorTest failing on live server #8908
+
+Week 8 Retropect:
+
+This week was devoted to fix urgent bugs and testing issues on live server. 
 
 Week 9 Plan:
 - [ ] Based on various Bug reports, find out how to add more tests which can spot bugs while testing

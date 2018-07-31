@@ -59,10 +59,7 @@ for the same by discussing with mentors.
 results. PR [Instructor: Help page: Documentation search feature](https://github.com/TEAMMATES/teammates/pull/8951).
 
 Week 8 retrospect:
-Initial part of this week went into implementing drag and drop feature for Rubric questions. However, I faced a lot of complications
-and the plugin I was using until now wasn't working very well for Rubric questions due to their complex structure. The UI was very glitchy and I wasn't able to find a straight forward way to get around it so I decided to keep this issue on hold and move on to the
-search feature instead. The remaining week went into developing the core of the search feature which included indexing the documents and
-undersstanding how elasticlunr works. By the end of the week I had a working prototype ready for review.
+Initial part of this week went into implementing drag and drop feature for Rubric questions. However, I faced a lot of complications and the plugin I was using until now wasn't working very well for Rubric questions due to their complex structure. The UI was very glitchy and I wasn't able to find a straight forward way to get around it so I decided to keep this issue on hold and move on to the search feature instead. The remaining week went into developing the core of the search feature which included indexing the documents and understanding how elasticlunr works. By the end of the week I had a working prototype ready for review.
 
 Week 9 Plan:
 - [x] Buffer period to resolve pending issues from week 6-8
@@ -81,13 +78,10 @@ Week 10 Plan:
 - [x] Code review + fix issues with search feature
 
 Week 10 Work:
-- [x] Looked into the issues pointed by Cara particularly regarding the pitfalls of using stemming during indexing phase. Looked
-into how the Porter stemmer works and experimented by removing the stemmer completely from the search logic to see how does it affect
-the results returned and their ranking. In a nutshell I found that removing stemming returns exact matches but at the same time also eliminates relevant results that could be potentially useful.
+- [x] Looked into the issues pointed by Cara particularly regarding the pitfalls of using stemming during indexing phase. Looked into how the Porter stemmer works and experimented by removing the stemmer completely from the search logic to see how does it affect the results returned and their ranking. In a nutshell I found that removing stemming returns exact matches but at the same time also eliminates relevant results that could be potentially useful.
 
 Week 10 retrospect:
-I wasn't able to write much code this week due to it being graduation week and my parents visiting me so I tried to utilise my time 
-by researching into issues pointed out in code review.
+I wasn't able to write much code this week due to it being graduation week and my parents visiting me so I tried to utilise my time by researching into issues pointed out in code review.
 
 Week 11 Plan:
 - [x] Finish work on search feature

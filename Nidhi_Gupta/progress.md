@@ -115,7 +115,7 @@ Works
 - Review ready PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-402678276)
 
 Retrospect on Week 8:
-This week I worked upon another issue related to comments feature along with main comments PR. I faced two difficulties this week. First one, I encountered lots of unrelated errors after pulling from master. There were updates in development packages. It was some problem caused by intelliJ. Second being failing test on master branch. My mentors helped me solve both the issues quickly so that time is not wasted. And both of them were related to intelliJ. Adding ability for instructors to add comments from view RQG is same as GQR PR. Once GQR PR gets merged, it wouldn't take much time to do same for RQG.
+This week I worked upon another issue related to comments feature along with main comments PR. I faced two difficulties this week. First one, I encountered lots of unrelated errors after pulling from master as there were updates in development packages. It was some problem caused by intelliJ. Second being failing test on master branch. My mentors helped me solve both the issues quickly so that time is not wasted. And both of them were related to intelliJ. Adding ability for instructors to add comments from view RQG is same as GQR PR. Once GQR PR gets merged, it wouldn't take much time to do same for RQG.
 
 Week 9 Plan:
 - [ ] Implement the ability for respondents to add comments for numerical-scale questions
@@ -131,7 +131,7 @@ Works
 - Review ready PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-405013606)
 
 Retrospect on Week 9:
-This week I worked upon making comments on responses PR backward compatible. I enjoyed discussing with mentors about ways we can ensure that legacy data is handled. I saw few of the old data migration scripts which was pretty amazing. I previously thought that data migration is something extremely complicated. But now I wish to write one myself for comments feature in future. In my GQR PR, there were logic holes in my previous implementation which got discovered during review. So I think I need to be more careful and think deeply so as to avoid writing bad logic in future.  I couldn't complete this week's plan because there are still lot of room for improvement in comments PR and current's week could only be completed after main PR gets merged.
+This week I worked upon making comments on responses PR backward compatible. I enjoyed discussing with mentors about ways we can ensure that legacy data is handled. I saw few of the old data migration scripts which was pretty amazing. I previously thought that data migration is something extremely complicated. But now I wish to write one myself for comments feature in future. In my GQR PR, there were logic holes in my previous implementation which got discovered during review. So I think I need to be more careful and think deeply so as to avoid writing bad logic in future.  I couldn't complete this week's plan because there is still lot of room for improvement in comments PR and current week's plan can only be completed after main PR gets merged.
 
 Week 10 Plan:
 - [ ] Implement the ability for respondents to add comments for rubric questions
@@ -160,7 +160,7 @@ Works
 - Review ready PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-408206579)
 
 Retrospect on Week 11:
-This week I majorly worked upon fixing issues related to tests that I added last week in which I learnt to avoid introducing dependencies between tests as much as possible. There was also lot of discussion about overall UI of feedback comments feature. No major difficulties faced. Current focus is on getting the basic feedback participant comments feature right, which means there wouldn't be any time left to work upon optional features.
+This week I majorly worked upon fixing issues related to tests that I added last week in which I learnt to avoid introducing dependencies between tests as much as possible. There was also lot of discussion about overall UI of feedback comments feature. Current focus is on getting the basic feedback participant comments feature right, which means there wouldn't be any time left to work upon optional features.
 
 Week 12 Plan:
 - [ ] Code review

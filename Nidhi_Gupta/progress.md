@@ -99,68 +99,82 @@ Works
 - Worked majorly upon fixing code after reviews.
 - Review ready PR [Instructor: comment on responses: support entering comments for each response from view GQR #8872](https://github.com/TEAMMATES/teammates/pull/8897)
 - Opened PR [Instructor: Question view: visibility icon does not appear for new comments #8899](https://github.com/TEAMMATES/teammates/pull/8934)
+- Review ready PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-400466046)
+- Review ready PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-401836655)
+- Review ready PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-401499396)
 
 Retrospect on Week 7:
 Code looks clean now. I guess it would take some more time to get the main PR merged. I plan to work on this along with other issues related to comments feature.
 
 Week 8 Plan:
-- [x] Code Review
-- [x] Ability for instructors to add comments from view, Giver > Question > Recipient
-- [x] Add tests
-- [x] Work on adding visibility icon to all comments
+- [ ] Implement the ability for respondents to add comments for numerical-scale questions
+- [ ] Implement the ability for respondents to add comments for MSQ questions
+- [ ] Implement the ability for respondents to add comments for rank questions
+- [ ] Update UI for response comments
+- [ ] Add tests for trio
 
 Works
 - Review ready PR [Instructor: Question view: visibility icon does not appear for new comments #8899](https://github.com/TEAMMATES/teammates/pull/8934)
+- Review ready PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-402225344)
+- Review ready PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-402678276)
 
 Retrospect on Week 8:
-I faced two difficulties this week. First one, I encountered lots of unrelated errors after pulling from master. There were updates in development packages. It was some problem caused by intelliJ. Second being failing test on master branch. My mentors helped me solve both the issues quickly so that time is not wasted. And both of them were related to intelliJ. Apart from this, no other major setbacks.
+This week I worked upon another issue related to comments feature along with main comments PR. I faced two difficulties this week. First one, I encountered lots of unrelated errors after pulling from master. There were updates in development packages. It was some problem caused by intelliJ. Second being failing test on master branch. My mentors helped me solve both the issues quickly so that time is not wasted. And both of them were related to intelliJ. I couldn't complete this week's plan because there are still lot of room for improvement in comments PR and current's week could only be completed after main PR gets merged.
 
 Week 9 Plan:
-- [x] Fix backward compatibility issues in #8830 (Comments on responses)
-- [x] Improve implementation of #8872 (GQR)
+- [ ] Implement the ability for respondents to add comments for rubric questions
+- [ ] Implement the ability for respondents to add comments for distribute questions
+- [ ] Update UI for response comments
+- [ ] Add tests for both
 
 Works
 - Merged PR [Instructor: Question view: visibility icon does not appear for new comments #8899](https://github.com/TEAMMATES/teammates/pull/8934)
+- Review ready PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-403317501)
+- Review ready PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-404215861)
+- Review ready PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-405013606)
 
 Retrospect on Week 9:
-This week I worked upon making comments on responses PR backward compatible. I enjoyed discussing with mentors about ways we can ensure that legacy data is handled. I saw few of the old data migration scripts which was pretty amazing. I previously thought that data migration is something extremely complicated. But now I wish to write one myself for comments feature in future. In my GQR PR, there were logic holes in my previous implementation which got discovered during review. So I think I need to be more careful and think deeply so as to avoid writing bad logic in future.
+This week I worked upon making comments on responses PR backward compatible. I enjoyed discussing with mentors about ways we can ensure that legacy data is handled. I saw few of the old data migration scripts which was pretty amazing. I previously thought that data migration is something extremely complicated. But now I wish to write one myself for comments feature in future. In my GQR PR, there were logic holes in my previous implementation which got discovered during review. So I think I need to be more careful and think deeply so as to avoid writing bad logic in future. The reason for not completing this week's plan is same as the week before. Unfortunately I forgot to update my project plan last week.
 
 Week 10 Plan:
-- [x] Separate tag and js files for feedback participant comments feature #8830 (Comments on responses)
-- [x] Refactor tests for #8872 (GQR)
-- [x] Add tests for #8701 (Show average rank)
-- [x] Add unit tests for #8830 (Comments on responses)
+- [x] Ability for instructors to add comments from view, Giver > Question > Recipient.
+- [x] Ability for instructors to add comments from view, Recipient > Question > Giver
+- [x] Add tests for both
 
 Works
 - Merged PR [Student: view results: rank questions: show average #8701](https://github.com/TEAMMATES/teammates/pull/8784)
+- Review ready PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-405386280)
+- Review ready PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-405716741)
+- Review ready PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-406586982)
 
 Retrospect on Week 10:
 This week I worked upon separating feedback participant comments from instructor comments completely. It simplified the implementation of comment indexes. I also wrote lots of unit tests for all the new methods that I introduced in my multiple PRs. I feel more confident about writing tests at the end of this week. No major difficulties encountered.
 
 Week 11 Plan:
-- [x] Modify UI of feedback participant comments feature #7239 (Comments on responses)
 - [x] Finish any remaining work from week 8-10
-- [x] Ability for instructors to add comments from view, Recipient > Question > Giver
+- [x] Fix issues after code review
+- [ ] Implement backend of ability for instructors to disable comments
 
 Works
 - Merged PR [Instructor: comment on responses: support entering comments for each response from view GQR #8872 ](https://github.com/TEAMMATES/teammates/pull/8897)
 - Merged PR [Instructor: comment on responses: support entering comments for each response from view RQG #8987 ](https://github.com/TEAMMATES/teammates/pull/8992)
+- Review ready PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-407218597)
+- Review ready PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830#issuecomment-408206579)
 
 Retrospect on Week 11:
-This week was great. I finished work on supporting entering comments from views GQR and RQG. I gave final touches to main comments PR, which will mostly be approved after few rounds of reviews. No major setbacks.
+This week I majorly worked upon fixing issues related to tests that I added last week in which I learnt to avoid introducing dependencies between tests as much as possible. There was also lot of discussion about overall UI of feedback comments feature. No major difficulties faced. Current focus is on getting the basic feedback participant comments feature right, which means there wouldn't be any time left to work upon optional features.
 
 Week 12 Plan:
 - [ ] Code review
 
 Week 13 Plan:
-- [ ] Implement the ability for respondents to add comments for numerical-scale questions
-- [ ] Implement the ability for respondents to add comments for MSQ questions
-- [ ] Implement the ability for respondents to add comments for rank questions
-- [ ] Update UI (if required)
-- [ ] Add tests for trio
+- [ ] Code review
 
 Week 14 Plan:
 - [ ] Implement the ability for respondents to add comments for rubric questions
 - [ ] Implement the ability for respondents to add comments for distribute questions
+- [ ] Implement the ability for respondents to add comments for numerical-scale questions
+- [ ] Implement the ability for respondents to add comments for MSQ questions
+- [ ] Implement the ability for respondents to add comments for rank questions
 - [ ] Update UI (if required)
-- [ ] Add tests for both
+- [ ] Add tests

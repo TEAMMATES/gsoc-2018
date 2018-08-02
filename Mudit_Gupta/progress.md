@@ -37,8 +37,10 @@ Week 5 Plan:
 - [ ] Fix issues after code review
 
 Week 6 Plan:
-- [x] Mockups for enhancements to Feedback session creation
+- [ ] Mockups for enhancements to Getting started guide (scrapped)
+- [ ] Develop use cases/user stories + UI workflows for enhancements to Getting started guide (scrapped)
 - [x] In depth discussion to ensure common ground on design
+- [x] Mockups for enhancements to Feedback session creation
 - [x] Implement drag and drop feature for other question types
 
 Week 6 work:
@@ -47,19 +49,25 @@ Week 6 work:
 - Marking mandatory fields
 - Improving display of more information of advanced settings
 - Improving wording of text
+- [x] Merged: [Student: feedback submission: distribution points question: explain if equal points are not allowed](https://github.com/TEAMMATES/teammates/pull/8836)
+- [x] Merged: [Instructor: creating a session: able to manipulate the option when checkbox is not checked](https://github.com/TEAMMATES/teammates/pull/8846)
 - [x] Implemented drag and drop feature for MSQ questions. Extended [Instructor: edit MCQ question: give an easier way to reorder options](https://github.com/TEAMMATES/teammates/pull/8889) to include MSQ questions.
-- [x] Implemented drag and drop feature for Rank questions. Extended [Student: feedback submission: distribution points question: explain if equal points are not allowed](https://github.com/TEAMMATES/teammates/pull/8836) to include Rank questions.
+- [x] Implemented drag and drop feature for Distribute points questions [Instructor: Edit distribute points question: reorder options using drag and drop](https://github.com/TEAMMATES/teammates/pull/8916)
+- [x] Implemented drag and drop feature for Rank questions. Extended [Instructor: Edit distribute points question: reorder options using drag and drop](https://github.com/TEAMMATES/teammates/pull/8916) to include Rank questions.
+
 
 Week 6 Retrospect:
-Had to spend some time resolving merge conflicts for drag and drop PR due to previous enhancements made to distribute points questions. 
+Based on the discussion that took place in week 4 and 5 with Prof Damith and my mentors, we decided to focus on making advanced features easier to use. So the initial plan to work on Getting started guide was scrapped and I researched into current bottlenecks while setting advanced options. I drew some mockups to improve the same as shown above. Some of these issues were addressed in later PRs. We decided to extend drag and drop functionality to other question types as well. In this week I also had to spend some time resolving merge conflicts for drag and drop PR due to previous enhancements made to distribute points questions.
 
 Week 7 Plan:
-- [x] Writing Selenium tests for drag and drop feature for MSQ and Rank questions
+- [ ] Front end development for enhancements to Getting started guide (scrapped)
+- [x] Writing Selenium tests
 - [x] Finish work on [Student: Feedback submission: Rank question: Improve explanation regarding ranking constraints](https://github.com/TEAMMATES/teammates/pull/8870)
 
 Week 7 Work:
-- [x] Added tests for MSQ and Rank questions for drag and drop feature. PRs [8889](https://github.com/TEAMMATES/teammates/pull/8889) and [8836](https://github.com/TEAMMATES/teammates/pull/8836) ready for review.
-- [x] Finished remaining work on PR [Student: Feedback submission: Rank question: Improve explanation regarding ranking constraints](https://github.com/TEAMMATES/teammates/pull/8870) after merging of [8836](https://github.com/TEAMMATES/teammates/pull/8836). Added tests as well
+- [x] Review ready PR: [Instructor: edit MCQ question: give an easier way to reorder options](https://github.com/TEAMMATES/teammates/pull/8889) after adding tests for MSQ questions.
+- [x] Review ready PR: [Instructor: Edit distribute points question: reorder options using drag and drop](https://github.com/TEAMMATES/teammates/pull/8916) after adding tests for rank and distribute points questions.
+- [x] Review ready PR: [Student: Feedback submission: Rank question: Improve explanation regarding ranking constraints](https://github.com/TEAMMATES/teammates/pull/8870) after adding tests and merging of [8836](https://github.com/TEAMMATES/teammates/pull/8836).
 - [x] Researched into implementation of search feature for instructor help page.
 
 Week 7 retrospect:

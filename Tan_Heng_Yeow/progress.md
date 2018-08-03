@@ -144,7 +144,9 @@ Works:
 
 Retrospect on Week 6:
 
-I managed to come up with a working version of the back-end action and front-end action to perform mass updates of students. As I was working through this, I realized that the next stage of work (explore suitable feedback mechanism for each row in existing students’ spreadsheet interface if edits to the field are not permitted after backend validation) would have complications with the existing behavior of expanding/collapsing panel of the existing students' data spreadsheet. The issue was that the current action of expanding the panel is mapped to a new AJAX action to fetch existing students data, thus there would be potential issues persisting state changes reflected from the back-end.
+I managed to come up with a working version of the back-end action and frontend action to perform mass updates of students. To cut down on computational resources, I stored a copy of the existing students' data when the data was first loaded into the spreadsheet. A separate function was written to only send updated student data to the back-end to update the students.
+
+As I was working on this stage, I realized that the next stage of work (explore suitable feedback mechanism for each row in existing students’ spreadsheet interface if edits to the field are not permitted after backend validation) would have conflicts with the act of expanding/collapsing the panel of the existing students' data spreadsheet. This is because expanding the existing students' panel is mapped to a new AJAX action to fetch existing students data, thus there would be potential issues persisting state changes reflected from the back-end on the spreadsheet interface.
 
 Upon discussion with my mentors, I was given some pointers and tips to ensure that the behavior is consistent throughout the system. This process reiterated the importance of working towards a targeted planned objective in a consistent manner. As this project's approach is to allow features to be made releaseable to users in stages, it is crucial that the features and behavior implemented builds on top of one another and they are in sync. Fortunately this issue was pointed out early (few weeks before the planned week for implementing the feedback mechanism). This would minimize chances where backtracking is needed due to negligence in the planning process. 
 
@@ -183,6 +185,8 @@ Works:
 - Updated this [PR](https://github.com/TEAMMATES/teammates/pull/8884) according to review comments. Latest commit shown [here](https://github.com/TEAMMATES/teammates/pull/8884/commits/cdbffba6654eddc65748af91f9df4903082ddc11).
 - Fixed an existing [bug](https://github.com/TEAMMATES/teammates/pull/8936).
 
+Retrospect on Week 8:
+
 I managed to implement a modal box to confirm changes made to the existing students' spreadsheet interface. The modal box also provides an option to resend past session links to new emails if the user wants to change emails of existing students. The work involved both the front-end and back-end systems of the codebase and there was no major difficulty faced. Through the process of implementing the feature, I identified a bug in how the existing emails are generated and submitted a fix. 
 
 Also, through this [PR](https://github.com/TEAMMATES/teammates/pull/8884), my mentor highlighted concerns with my commit practices. I have the tendency to make all required changes first and then commit changes by grouping related files together. This was done to minimize the potential chain of commits so that the reviewer would not have to see outdated commits and look through a huge list of commits. 
@@ -196,27 +200,80 @@ As mentioned in last week's retrospect, I intend to combine the work done for st
 Week 9 Plan:
 
 4th stage:
-- [ ] Fix any new issues from Week 8
-- [ ] Implement skeleton feedback mechanism for each row in existing students' spreadsheet interface.
+- [X] Fix any new issues from Week 8
+- [X] Implement skeleton feedback mechanism for each row in existing students' spreadsheet interface.
+
+Works:
+- Progress for this week marked at this [checkpoint](https://github.com/TEAMMATES/teammates/pull/8960/commits/055fd77d4b5ef7d736e0a1641f84c8f52f80f119).
+- Worked on this [PR](https://github.com/TEAMMATES/teammates/pull/8954).
+
+Retrospect on Week 9:
+
+I took a short break from the existing project by working on other issues present in TEAMMATES. The reason was that I have been delving into mainly the `Courses` aspect of TEAMMATES and wanted to explore other aspects too. Furthermore, the [issue](https://github.com/TEAMMATES/teammates/issues/8791) was marked as `p.High` and was not actively worked on. By submitting the fix, I got a better understanding of AJAX implementation in TEAMMATES, the `Sessions` aspect and handling of `DateTime` fields. 
+
+The rest of the week was spent exploring on a suitable mechanism for each row in the existing students' spreadsheet interface. The result of the research was that using renderers in `Handsontable` is suitable for the proposed feedback mechanism. This is because custom renderers can be built to suit the needs of this phase of the project by making use of the primitive renderers provided by `Handsontable`. For example, custom renderers allows us to display HTML content in a cell. I plan to use HTML status icons to indicate the type of feedback (success/failure) after backend validation and HTML tooltips as a way to display the content of the feedback. With the introduction of HTML content in the existing students' spreadsheet interface, there might be a risk of XSS attacks. To protect against XSS attacks, I took extra precaution to make sure that back-end sanitization has been put into place for the action I created in the previous stage that processes content sent from the existing students' spreadsheet interface.
+
+I proceeded to implement a new column in the existing students' spreadsheet interface to show HTML green ticks as a form of experiment.
 
 Week 10 Plan:
 
 4th stage:
-- [ ] Finish up any remaining work from Week 9
-- [ ] Migrate status box messages to the new feedback mechanism.
+- [X] Finish up any remaining work from Week 9
+- [X] Migrate status box messages to the new feedback mechanism.
 - [ ] Write tests for new feature above
+
+Works:
+- Progress for this week marked at this [checkpoint](https://github.com/TEAMMATES/teammates/pull/8960/commits/d353ba96f328d497b958630464c124c04dd13b53).
+- Worked on this [PR](https://github.com/TEAMMATES/teammates/pull/8976).
+
+Retrospect on Week 10:
+
+Prior to this stage of the project, I created a new back-end action to perform mass updates of students as mentioned in Week 6's retrospect. The action would result in a page refresh after updating students and show success/failure indicators in the form of status messages. As pointed out in the Week 6's retrospect, this behavior is not desirable. This is because a page refresh would cause the existing students' spreadsheet to be empty. When the spreadsheet is expanded again upon user click, an AJAX action would be executed to fetch the latest copy of existing students' data. This results in complications showing users any immediate feedback of the data sent after backend validation. Upon further discussion with my project mentors, feedback for success cases should be shown as well, not only error cases.
+
+As such, the goal is to use an AJAX action to perform back-end validation of data and send the appropriate messages to the front-end. After which, the existing students' spreadsheet interface would be updated with the relevant feedback messages on the fly by modifying the DOM directly, without needing to refresh the page. 
+
+I did this change in incremental steps. I first created a new AJAX action to process updated students and return success/failure indicators. After that, I refactored both the front-end logic and the existing back-end action that performs mass update of students. As a result, the back-end action only does a page refresh upon a success indicator received from the front-end. In the final step, I replaced the back-end action completely with the current new AJAX action.
+
+Moving on, I organized the error exception messages thrown and success messages in a way that it is suitable to be stored in the form of a Java `HashMap`. These data structures are sent to the frontend through AJAX and then stored as a JavaScript `Map`. Through this exercise, I recapped on Java `HashMap` and learnt tricks relevant to JavaScript `Map`. In addition, I used my knowledge of custom renderers learnt in the past two weeks to highlight the updated rows as a form of feedback using data stored in the JavaScript `Map`. Successful updated rows are highlighted in green and rows with errors are highlighted in red. Tooltips are available upon hover to aid the user in rectifying the error.
+
+The final task for this week involved working on this [PR](https://github.com/TEAMMATES/teammates/pull/8976) due to a user request. I did research on pasting using `Handsontable` and proposed an update in the [issue](https://github.com/TEAMMATES/teammates/issues/8972) raised.
+
+All in all, this week was fruitful as I did changes in incremental steps that were simple enough to prevent myself from getting overwhelmed with tasks. I am now more well versed with creating and modifying existing actions to perform AJAX requests and also do a page refresh if necessary. Furthermore, I believe my increased familiarity with handling Java `HashMap` and JavaScript `Map` is useful in completing the work for this phase of the project as they serve as the backbone in providing feedback from the back-end to the front-end.
 
 Week 11 Plan:
 
 4th stage:
-- [ ] Finish up any remaining work from Week 10
+- [X] Finish up any remaining work from Week 10
 - [ ] Complete tests for new feature above
+
+Works:
+- Progress for this week marked at this [checkpoint](https://github.com/TEAMMATES/teammates/pull/8989#issuecomment-408049261).
+- Fix and merged this [PR](https://github.com/TEAMMATES/teammates/pull/8976).
+- Worked on and merged this [PR](https://github.com/TEAMMATES/teammates/pull/8996).
+- Updated this [PR](https://github.com/TEAMMATES/teammates/pull/8884) according to review comments. Latest commit shown [here](https://github.com/TEAMMATES/teammates/pull/8884/commits/a0349305ad6c23f352f8d6c20ba10ae22d8869bf).
+
+Retrospect on Week 11:
+
+This week's work involves improving the status message shown during the enroll process to be consistent with stage 3 and 4 of the proposed features. There were no major difficulties faced as I have done similar type of work in the last week. I submitted an early PR and obtained some feedback for improvement before implementing tests.
+
+In order to minimize huge changes to the existing codebase, I submitted work that followed this [approach](https://github.com/TEAMMATES/teammates/pull/8989#issuecomment-408110265). After some discussion, we reached a consensus to remove the existing enrollment result page and use AJAX only to display success/error messages. I felt what I did right was to obtain early feedback on production code before writing test code. This is because time would be wasted if I wrote test code only to find out that the production code could be better written using a different approach.
 
 Week 12 Plan:
 
 5th stage:
-- [ ] Fix any new issues from Week 11
-- [ ] Implement tick boxes as a column in spreadsheet interface
+- [X] Fix any new issues from Week 11
+- [X] Implement check boxes as a column in spreadsheet interface
+
+Works:
+- Progress for this week marked at this [checkpoint](https://github.com/TEAMMATES/teammates/pull/9019/commits/d0a544e843751ff0bbd1ef82b7dae215cc49f8dd).
+- Worked on this [PR](https://github.com/TEAMMATES/teammates/pull/9017).
+- Updated this [PR](https://github.com/TEAMMATES/teammates/pull/8884) according to review comments. Latest commit shown [here](https://github.com/TEAMMATES/teammates/pull/8884#issuecomment-409219892).
+
+Retrospect on Week 12:
+
+This week's work includes working on the new approach to improve the status message shown during the enroll process. There were no major difficulties faced and the lessons learnt from past work and code reviews aided me a lot in the implementation.
+
+Also, I managed to implement a column of check boxes in the spreadsheet interface. Initially, I wanted to design a check box to be placed in the column header. When the checkbox in the header is clicked, all the student rows will be selected/unselected. However, I realized that there would be potential complications if I approach it this way. As the check box is in HTML, it would cause inconsistencies in rendering the section headers as they would be parsed both in the front-end and back-end. As a result, I changed the section header to be an empty string and implemented buttons to select/unselect all student rows instead.
 
 Week 13 Plan:
 

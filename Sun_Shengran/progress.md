@@ -150,12 +150,34 @@ Week 11 Plan:
 - [ ] Trigger the event every time when user clicks on the recovery page
 - [ ] Show message to user whether the recycle bin has been auto-updated, which items are expired and therefore permanently deleted
 
+Week 11 Work:
+
+- [x] Merged PR #8928 [Instructor: recycle bin feature: add instructions for managing deleted courses in instructor help page #8927](https://github.com/TEAMMATES/teammates/pull/8928)
+- [x] Committed to PR #8907 [Instructor: recycle bin feature: allow restore and delete sessions in instructor feedback sessions page #8906](https://github.com/TEAMMATES/teammates/pull/8907)
+- [x] Committed to PR #8953 [Instructor: recycle bin feature: add tests for deleting & restoring of courses #8952](https://github.com/TEAMMATES/teammates/pull/8953)
+
+Week 11 Retrospect:
+
+This week I've been focusing on fixing issues in my PRs due to mentors' comments. No major difficulties encountered.
+
 Week 12 Plan:
 - [ ] Add tests for the auto-purging feature
-- [ ] Complete any work left from the last week
+- [x] Complete any work left from the last week
+
+Week 12 Work:
+
+- [x] Merged PR #8953 [Instructor: recycle bin feature: add tests for deleting & restoring of courses #8952](https://github.com/TEAMMATES/teammates/pull/8953)
+- [x] Merged PR #9005 [Instructor: Courses Page: Recycle Bin feature for courses #9002](https://github.com/TEAMMATES/teammates/pull/9005)
+- [x] Merged PR #8907 [Instructor: recycle bin feature: allow restore and delete sessions in instructor feedback sessions page #8906](https://github.com/TEAMMATES/teammates/pull/8907)
+- [x] Merged PR #8965 [Instructor: recycle bin feature: add instructions for managing deleted sessions in instructor help page #8964](https://github.com/TEAMMATES/teammates/pull/8965)
+- [x] Created PR #9014 [Instructor: recycle bin feature: refactor term 'recovery' to other meaningful terms #9013](https://github.com/TEAMMATES/teammates/pull/9014)
+
+Week 12 Retrospect:
+
+This week the Recycle Bin feature for courses has been successfully merged to master. Due to massive commits and high dependency among my PRs, I have learned to rebase my branches instead of simply merging branches. This week I mainly focused on refactoring of term 'recovery' to some other meaningful terms. No major difficulties encountered.
 
 Week 13 Plan:
-- [ ] Add documentation for Recycle Bin feature in the instructors help page
+- [x] Add documentation for Recycle Bin feature in the instructors help page
 - [ ] Complete any work left from past weeks
 
 Week 14 Plan:

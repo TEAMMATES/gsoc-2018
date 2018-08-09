@@ -37,8 +37,8 @@ Week 5 Plan:
 - [ ] Fix issues after code review
 
 Week 6 Plan:
-- [ ] Mockups for enhancements to Getting started guide (scrapped)
-- [ ] Develop use cases/user stories + UI workflows for enhancements to Getting started guide (scrapped)
+- [ ] ~~Mockups for enhancements to Getting started guide~~ (scrapped)
+- [ ] ~~Develop use cases/user stories + UI workflows for enhancements to Getting started guide~~ (scrapped)
 - [x] In depth discussion to ensure common ground on design
 - [x] Mockups for enhancements to Feedback session creation
 - [x] Implement drag and drop feature for other question types
@@ -60,7 +60,7 @@ Week 6 Retrospect:
 Based on the discussion that took place in week 4 and 5 with Prof Damith and my mentors, we decided to focus on making advanced features easier to use. So the initial plan to work on Getting started guide was scrapped and I researched into current bottlenecks while setting advanced options. I drew some mockups to improve the same as shown above. Some of these issues were addressed in later PRs. We decided to extend drag and drop functionality to other question types as well. In this week I also had to spend some time resolving merge conflicts for drag and drop PR due to previous enhancements made to distribute points questions.
 
 Week 7 Plan:
-- [ ] Front end development for enhancements to Getting started guide (scrapped)
+- [ ] ~~Front end development for enhancements to Getting started guide~~ (scrapped)
 - [x] Writing Selenium tests
 - [x] Finish work on [Student: Feedback submission: Rank question: Improve explanation regarding ranking constraints](https://github.com/TEAMMATES/teammates/pull/8870)
 

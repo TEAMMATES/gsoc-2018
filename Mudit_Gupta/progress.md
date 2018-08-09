@@ -75,6 +75,8 @@ Week 9 retrospect:
 As planned, this week went into enhancing the search feature by adding highlighting and pagination. I also experimented with different boost values which are part of the search configuration passed to elasticlunr. Building the pagination system took longer than i expected which is why I wasn't able to add tests this week.
 
 Week 10 Plan:
+- [ ] ~~Back end development (if any) for getting started guide~~ (scrapped)
+- [ ] ~~Write back end tests~~ (scrapped)
 - [x] Code review + fix issues with search feature
 
 Week 10 Work:
@@ -84,8 +86,9 @@ Week 10 retrospect:
 I wasn't able to write much code this week due to it being graduation week and my parents visiting me so I tried to utilise my time by researching into issues pointed out in code review.
 
 Week 11 Plan:
-- [x] Finish work on search feature
 - [x] Code review + fix pending issues in previous PRs
+- [ ] ~~Improve documentation structure (split into multiple pages + add side navigation where necessary)~~ (scrapped)
+- [x] Finish work on search feature
 
 Week 11 Work:
 - [x] Finished work on search feature in this week. Added tests, made the pagination system responsive and fixed the highlighting feature due to bugs in previous implementation. Ready for review: PR [Instructor: Help page: Documentation search feature](https://github.com/TEAMMATES/teammates/pull/8951)
@@ -98,8 +101,9 @@ Finished all work on search feature and made it ready for review. Also fixed out
 
 Week 12 Plan:
 - [ ] Work and finish issue [Instructor: Feedback Session: Improve display of more information for advanced settings #8932](https://github.com/TEAMMATES/teammates/pull/9001)
+- [ ] Fix other UX issues
 - [ ] Add some new questions to Instructor help page (still in discussion)
-- [ ] Fix issues after code review
+- [ ] Fix issues after code review and merge PRs
 
 Week 13 Plan:
 - [ ] 

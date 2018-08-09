@@ -84,26 +84,21 @@ Week 9 Plan:
 - [ ] Add tests for search feature 
 
 Week 10 Plan:
-- [ ]
 - [ ] Back end development (if any) for getting started guide
 - [ ] Write back end tests 
 
 Week 11 Plan:
-- [ ] 
 - [ ] Code review + fix issues for getting started guide
 - [ ] Improve documentation structure (split into multiple pages + add side navigation where necessary, to be discussed)
 
 Week 12 Plan:
-- [ ]
 - [ ] Write tests for changes to documentation structure (if any)
 - [ ] Fix issues after code review
 
 Week 13 Plan:
-- [ ] 
 - [ ] Buffer period to resolve pending work from week 9-12
 - [ ] Code review + Fix issues
 
 Week 14 Plan:
-- [ ] 
 - [ ] Buffer period to resolve pending work from week 9-12
 - [ ] Code review + Fix issues

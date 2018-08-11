@@ -163,16 +163,26 @@ Retrospect on Week 11:
 This week I majorly worked upon fixing issues related to tests that I added last week in which I learnt to avoid introducing dependencies between tests as much as possible. There was also lot of discussion about overall UI of feedback comments feature. Current focus is on getting the basic feedback participant comments feature right, which means there wouldn't be any time left to work upon optional features.
 
 Week 12 Plan:
-- [ ] Code review
+- [x] Code review
+
+Works
+- Worked majorly upon fixing code after reviews.
+
+Retrospect
+This week went into refactoring the tests. Since it feedback particpants comments is a new feature, lots of tests need to to be added to make sure everything works fine. No major difficulties faced.
 
 Week 13 Plan:
-- [ ] Code review
+- [x] Code review
+
+Works
+- Merged PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830)
+- Merged PR [Student: Comment on responses: Fix put document error #9034](https://github.com/TEAMMATES/teammates/pull/9035)
+- Merged PR [Student: comment on MCQ answers: replace cancel button with a delete button #9030](https://github.com/TEAMMATES/teammates/pull/9033)
+- Opened PR [Student: Allow adding comments to MSQ answers #9031](https://github.com/TEAMMATES/teammates/pull/9032)
+- Opened PR [Student: comment on MCQ response: tweak comment UI #9029](https://github.com/TEAMMATES/teammates/pull/9036)
+
+Retrospect
+- This week, I worked upon improving code quality of comments PR. Fortunately I stumbled upon a bug in comments PR before the release and managed to fix it as well as add more tests. I also worked upon extending comments feature to MSQ type questions. Upon discussion with mentors, it was decided to leave the work to enable other question types to other contributors (since the task is easy and there is already a good template for them to refer to) and I can be the reviewer. Adding feedback participant comments was a huge task for me and I am really happy to see the way it shaped up in three months.
 
 Week 14 Plan:
-- [ ] Implement the ability for respondents to add comments for rubric questions
-- [ ] Implement the ability for respondents to add comments for distribute questions
-- [ ] Implement the ability for respondents to add comments for numerical-scale questions
-- [ ] Implement the ability for respondents to add comments for MSQ questions
-- [ ] Implement the ability for respondents to add comments for rank questions
-- [ ] Update UI (if required)
-- [ ] Add tests
+- [ ] Improve UI of new comments feature

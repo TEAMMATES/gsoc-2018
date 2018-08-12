@@ -91,26 +91,47 @@ Week 11 Plan:
 - [x] Finish work on search feature
 
 Week 11 Work:
-- [x] Finished work on search feature in this week. Added tests, made the pagination system responsive and fixed the highlighting feature due to bugs in previous implementation. Ready for review: PR [Instructor: Help page: Documentation search feature](https://github.com/TEAMMATES/teammates/pull/8951)
-- [x] Fixed issues for drag and drop PRs and merged all of them into the MCQ branch [8889](https://github.com/TEAMMATES/teammates/pull/8889). Ready for final review and merging.
-- [x] PR [Student: Feedback submission: Rank question: Improve explanation regarding ranking constraints](https://github.com/TEAMMATES/teammates/pull/8870). Ready for final review and merging.
+- [x] Review ready PR: [Instructor: Help page: Documentation search feature](https://github.com/TEAMMATES/teammates/pull/8951). Finished work on search feature in this week. Added tests, made the pagination system responsive and fixed the highlighting feature due to bugs in previous implementation.
+- [x] Review ready PR: [Instructor: edit MCQ question: give an easier way to reorder options](https://github.com/TEAMMATES/teammates/pull/8889). Fixed issues for drag and drop PRs and merged all of them into the MCQ branch.
+- [x] Review ready PR [Student: Feedback submission: Rank question: Improve explanation regarding ranking constraints](https://github.com/TEAMMATES/teammates/pull/8870).
 - [x] Due to a failing corner case in PR [Student: submit responses: use a more friendly way to choose evaluee](https://github.com/TEAMMATES/teammates/pull/8878) work was still ongoing.
 
 Week 11 retrospect:
 Finished all work on search feature and made it ready for review. Also fixed outstanding issues with previous PRs and made them ready for merging.
 
 Week 12 Plan:
-- [ ] Work and finish issue [Instructor: Feedback Session: Improve display of more information for advanced settings #8932](https://github.com/TEAMMATES/teammates/pull/9001)
-- [ ] Fix other UX issues
-- [ ] Add some new questions to Instructor help page (still in discussion)
+- [x] Work and finish issue [Instructor: Feedback Session: Improve display of more information for advanced settings #8932](https://github.com/TEAMMATES/teammates/pull/9001)
+- [x] Fix other UX issues
+- [ ] ~~Add some new questions to Instructor help page~~ (awaiting response from Cara)
 - [ ] Fix issues after code review and merge PRs
 
+Week 12 work:
+- [x] Merged: [Instructor: Add Course title to Student Details page](https://github.com/TEAMMATES/teammates/pull/8861)
+- [x] Review ready PR: [Instructor: Feedback Session: Improve display of more information for advanced settings #8932](https://github.com/TEAMMATES/teammates/pull/9001)
+- [x] Review ready PR: [Student: submit responses: use a more friendly way to choose evaluee #8867](https://github.com/TEAMMATES/teammates/pull/8878). Fixed the corner case of user using the separating symbol as part of section, team and name fields by passing the fields as separate attributes in HTML.
+- [x] Created PR: [Warn if browser is not compatible with TEAMMATES #9011](https://github.com/TEAMMATES/teammates/pull/9016). Initially thought of updating the version numbers as well but it was later decided to completely eliminate them at the moment.
+- [x] Fixed unnoticed bugs in PRs awaiting review, cleaned up the code and added screenshots of final changes where required as suggested by Prof Damith.
+
+Week 12 retrospect:
+The plan for this week was to review and merge all open PRs. However, due to mentors being busy with their own work that couldn't happen. I discussed the issue with Prof Damith and he suggested to make sure all PRs are as ready as possible, post final screenshots of changes made and deploy to staging server where needed. I used this week to work on new issues and fix bugs that went unnoticed in PRs awaiting review.
+
 Week 13 Plan:
-- [ ] 
-- [ ] Buffer period to resolve pending work from week 9-12
-- [ ] Code review + Fix issues
+- [x] Buffer period to resolve pending work from week 9-12
+- [x] Code review + Fix issues
+
+Week 13 work:
+- [x] Merged: [Instructor: Help page: Documentation search feature](https://github.com/TEAMMATES/teammates/pull/8951)
+- [x] Approved: [Student: Feedback submission: Rank question: Improve explanation regarding ranking constraints](https://github.com/TEAMMATES/teammates/pull/8870)
+- [x] Awaiting final review and merging: [Instructor: edit MCQ question: give an easier way to reorder options](https://github.com/TEAMMATES/teammates/pull/8889)
+- [x] Closed: [Instructor: Edit distribute points question: reorder options using drag and drop](https://github.com/TEAMMATES/teammates/pull/8916) since all changes of this PR were merged in [8889](https://github.com/TEAMMATES/teammates/pull/8889)
+- [x] Awaiting final review and merging: [Instructor: Feedback Session: Improve display of more information for advanced settings #8932](https://github.com/TEAMMATES/teammates/pull/9001)
+- [x] Awaiting response: [Student: submit responses: use a more friendly way to choose evaluee #8867](https://github.com/TEAMMATES/teammates/pull/8878). Waiting for response for comment [here](https://github.com/TEAMMATES/teammates/pull/8878#discussion_r208111443) before making final changes. Other 
+- [x] Ongoing PR: [Warn if browser is not compatible with TEAMMATES #9011](https://github.com/TEAMMATES/teammates/pull/9016). Currently finalizing designing for a dismissable alert and fixing issues pointed in review.
+- [x] Created issue: [Instructor: Edit Feedback Session: Add drag and drop feature for question option weights #9040](https://github.com/TEAMMATES/teammates/issues/9040)
+
+Week 13 retrospect:
+I managed to get reviews this week. Majority of the week went into fixing issues after code review. I am still waiting for final reviews on some PRs (mentioned above) that are close to merging. Later half of the week was spent working on newer issues.
 
 Week 14 Plan:
-- [ ] 
 - [ ] Buffer period to resolve pending work from week 9-12
 - [ ] Code review + Fix issues

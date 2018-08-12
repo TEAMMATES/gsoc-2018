@@ -100,6 +100,7 @@ Week 11 retrospect:
 Finished all work on search feature and made it ready for review. Also fixed outstanding issues with previous PRs and made them ready for merging.
 
 Week 12 Plan:
+- [ ] ~~Write tests for changes to documentation structure (if any)~~ (scrapped)
 - [x] Work and finish issue [Instructor: Feedback Session: Improve display of more information for advanced settings #8932](https://github.com/TEAMMATES/teammates/pull/9001)
 - [x] Fix other UX issues
 - [ ] ~~Add some new questions to Instructor help page~~ (awaiting response from Cara)

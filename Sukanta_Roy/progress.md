@@ -3,19 +3,21 @@
 **Project: Questions+**
 
 Overall Direction:
-- MCQ questions:
+- [x] MCQ questions:
 	- Attach weights to options
 	- Calculate more statistics (Total, average)
 	- Ensure downloaded data contains all data shown in the page.
-- MSQ questions:
+- [x] MSQ questions:
 	- Attach weights to options
 	- Calculate more statistics
 	- Ensure downloaded data contains all data shown in the page.
-- Rubric questions:
+- [x] Rubric questions:
 	- Attach weights to each cell instead of each column
 	- Update results accordingly
 	- Ensure downloaded data contains all data shown in the page.
-- [Add a new question template](https://github.com/TEAMMATES/teammates/issues/8850)
+	- Migrate legacy data into new format
+	- Remove legacy code
+- [ ] [Add a new question template](https://github.com/TEAMMATES/teammates/issues/8850) -> This feature was put on hold by the organization until the GSoC period ends. For reference: https://github.com/TEAMMATES/teammates/issues/8850#issuecomment-409793711
 ---
 
 Week 1 Plan:
@@ -212,13 +214,31 @@ This week I made Rubric weights PR review ready. We faced a problem this week wh
 Week 12 Plan:
 - [ ] Finalize the set of questions that will be added as a template
 - [ ] Implement the backend part of the new question template
-- [ ] Code review and fix
+- [x] Code review and fix
+- [x] Write data migration script to convert 1D weight list to 2D list for Rubric weights feature.
+
+Week 12 Work:
+- [x] Code review fix for Rubric Weights Feature
+- [x] Created issue and submitted PR for the bug: [instructorFeedbackResultsPage: Team Contribution Question: Help link is not showing statistics table](https://github.com/TEAMMATES/teammates/pull/9006)
+- [x] Submitted PR for [Rubric questions: allow weight for each cell: Migrate legacy data into new format #9007](https://github.com/TEAMMATES/teammates/pull/9008)
+- [x] Submitted PR for [FeedbackNumericalScaleQuestionDetails: refactor long methods #6657](https://github.com/TEAMMATES/teammates/pull/9020)
+
+Week 12 Retrospect:
+This week I mainly devoted my time in making the Rubric weights PR merge ready and wrote the data migration script for the step 2 of the data migration process which is to migrate the legacy data into new format. The new question template feature [Instructor: Feedback Session: Add a new session template with sample questions](https://github.com/TEAMMATES/teammates/issues/8850) was put on hold until GSoC period ended.
 
 Week 13 Plan:
 - [ ] Finish off any remaining work from last week
 - [ ] Implement the frontend part of the new question template
 - [ ] Update documentation
 - [ ] Code review and fix
+- [x] Remove legacy code that deals with old format weights for rubric weights feature
+
+Week 13 Work:
+- [x] Created issue and submitted PR for [Rubric questions: allow weight for each cell: Remove legacy code](https://github.com/TEAMMATES/teammates/issues/9026)
+- [x] Merged [Rubric questions: allow weight for each cell](https://github.com/TEAMMATES/teammates/pull/8961)
+
+Week 13 Retrospect:
+This week I submitted PR to remove the legacy code in Rubric weights feature, which is the final step of data migration process. The PR is `onHold` as the data migration process in not complete yet. Hoping to complete the data migration and also merge this PR within the next week. There was no major setbacks in this week.
 
 Week 14 Plan:
 - [ ] Buffer time for review and iterations

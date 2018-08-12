@@ -178,8 +178,8 @@ Works
 - Merged PR [Student: submit responses: allow student to add a comment for each response #7239](https://github.com/TEAMMATES/teammates/pull/8830)
 - Merged PR [Student: Comment on responses: Fix put document error #9034](https://github.com/TEAMMATES/teammates/pull/9035)
 - Merged PR [Student: comment on MCQ answers: replace cancel button with a delete button #9030](https://github.com/TEAMMATES/teammates/pull/9033)
+- Merged PR [Student: comment on MCQ response: tweak comment UI #9029](https://github.com/TEAMMATES/teammates/pull/9036)
 - Opened PR [Student: Allow adding comments to MSQ answers #9031](https://github.com/TEAMMATES/teammates/pull/9032)
-- Opened PR [Student: comment on MCQ response: tweak comment UI #9029](https://github.com/TEAMMATES/teammates/pull/9036)
 
 Retrospect
 - This week, I worked upon improving code quality of comments PR. Fortunately I stumbled upon a bug in comments PR before the release and managed to fix it as well as add more tests. I also worked upon extending comments feature to MSQ type questions. Upon discussion with mentors, it was decided to leave the work to enable other question types to other contributors (since the task is easy and there is already a good template for them to refer to) and I can be the reviewer. Adding feedback participant comments was a huge task for me and I am really happy to see the way it shaped up in three months.

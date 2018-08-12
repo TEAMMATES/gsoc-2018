@@ -186,3 +186,11 @@ Retrospect
 
 Week 14 Plan:
 - [ ] Improve UI of new comments feature
+
+Suggestions for further work
+- Enable feedback participant comments for other question types.
+- Ability to add feedback participant comments with response too.
+- Ability to set visibility settings of feedback participant comments.
+- Allow instructors to disable feedback participant comments.
+- Allow instructors to require feedback participant comments.
+- Ability to know if the instructor comment was read.

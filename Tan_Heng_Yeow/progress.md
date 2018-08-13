@@ -8,7 +8,7 @@ Overall Direction:
     * 1st stage
         * To replace current textbox in `instructorCourseEnrollPage` to a spreadsheet interface used for enrolling new students (new students' spreadsheet interface).
     * 2nd stage
-        * To add a new separate spreadsheet interface in `instructorCourseEnrollPage` to show existing students (existing students' spreadsheet interface). This spreadsheet interface would be read-only.
+        * To add a new separate spreadsheet interface in `instructorCourseEnrollPage` to show existing students (existing students' spreadsheet interface). This spreadsheet interface would be read-only. Both spreadsheet interfaces can be collapsed and expanded on demand. The existing students' spreadsheet interface would perform an AJAX action upon its first expansion to load existing students only if the spreadsheet interface is empty.
     * 3rd stage
         * To allow edits on existing students' spreadsheet interface except the `Email` column. New column to be created for updates to existing student email.
     * 4th stage
@@ -76,7 +76,7 @@ Week 3 Plan:
 - [ ] Write tests for new feature above
 
 Works:
-- Updated this [PR](https://github.com/TEAMMATES/teammates/pull/8833) according to review comments. Commit shown [here](https://github.com/TEAMMATES/teammates/pull/8833/commits/6626c2c7d2b1698089556bc8d414277569bb2e26).
+- Updated this [PR](https://github.com/TEAMMATES/teammates/pull/8833) according to review comments. Latest commit shown [here](https://github.com/TEAMMATES/teammates/pull/8833/commits/6626c2c7d2b1698089556bc8d414277569bb2e26).
 - Progress for this week marked at this [checkpoint]( https://github.com/TEAMMATES/teammates/pull/8884/commits/e620c8c598fce5b949fc8ad74659153099eeb7f9).
 
 Retrospect on Week 3:
@@ -124,7 +124,7 @@ Week 5 Plan:
 - [ ] Write tests for new feature above
 
 Works:
-- Updated this [PR](https://github.com/TEAMMATES/teammates/pull/8884) according to review comments. Commit shown [here](https://github.com/TEAMMATES/teammates/pull/8884/commits/6b8c6daf7159df80a3711588f77bdbaa63ebfddf).
+- Updated this [PR](https://github.com/TEAMMATES/teammates/pull/8884) according to review comments. Latest commit shown [here](https://github.com/TEAMMATES/teammates/pull/8884/commits/6b8c6daf7159df80a3711588f77bdbaa63ebfddf).
 - Progress for this week marked at this [checkpoint](https://github.com/TEAMMATES/teammates/pull/8901/commits/70a5b9f0dbb0515f2b10dafb8bd6100eafb76471).
 
 Retrospect on Week 5:
@@ -139,8 +139,8 @@ Week 6 Plan:
 - [X] Finish up any remaining work from Week 5
 
 Works:
-- Fixed [regression](https://github.com/TEAMMATES/teammates/pull/8913)
-- Progress for this week marked at this [checkpoint](https://github.com/TEAMMATES/teammates/pull/8901/commits/a5101e8300bcb66133afcb2e8b9ec415387a364b)
+- Fixed [regression](https://github.com/TEAMMATES/teammates/pull/8913).
+- Progress for this week marked at this [checkpoint](https://github.com/TEAMMATES/teammates/pull/8901/commits/a5101e8300bcb66133afcb2e8b9ec415387a364b).
 
 Retrospect on Week 6:
 
@@ -151,18 +151,47 @@ Upon discussion with my mentors, I was given some pointers and tips to ensure th
 Week 7 Plan:
 
 3rd stage:
-- [ ] Fix any new issues from Week 6
-- [ ] Create a new button to update changes to existing students' spreadsheet interface
+- [X] Fix any new issues from Week 6
+- [X] Create a new button to update changes to existing students' spreadsheet interface
 - [ ] Design a modal box to display after the instructor clicks the new button to update changes to existing students' spreadsheet interface
     - [ ] Include option to resend past session links to potential new emails created
-- [ ] Include status box messages to be shown in `instructorCourseEnroll` page after backend validation is performed for the updated changes.
+- [X] Include status box messages to be shown in `instructorCourseEnroll` page after backend validation is performed for the updated changes.
 - [ ] Write tests for new feature above
+
+Works:
+- Progress for this week marked at this [checkpoint](https://github.com/TEAMMATES/teammates/pull/8901/commits/46290fb20c4b6ab3a175ec0d0936af081c17b895).
+- Updated this [PR](https://github.com/TEAMMATES/teammates/pull/8884) according to review comments. Latest commit shown [here](https://github.com/TEAMMATES/teammates/pull/8884/commits/46290fb20c4b6ab3a175ec0d0936af081c17b895).
+
+Retrospect on Week 7:
+
+This week was spent updating this [PR](https://github.com/TEAMMATES/teammates/pull/8884) according to the review comments. After that, synchronization is done to match stage 3's [progress](https://github.com/TEAMMATES/teammates/pull/8901).
+
+This week's work allowed me to learn more about the implementation of JavaScript promises (they represent the future result of an asynchronous operation) in TEAMMATES. There wasn't an existing implementation of JavaScript promises to reference in the codebase, thus it was an eye opener to me. It was also a good exposure for me as JavaScript promises are deemed the modern way to represent asynchronous operations compared to JavaScript callbacks.
+
+In addition, this week's work also exposed me to writing tests for back-end AJAX actions. This experience allowed me to complete my knowledge of implementing AJAX related functionalities in TEAMMATES, from front-end, back-end to tests. The knowledge gained would be beneficial in aiding me to implement future end-to-end AJAX related actions in the codebase.
+
+Upon working on stage 3 of the project, I realized that writing tests for the update action (which would update student details based on changes made to the existing students' spreadsheet interface) at this point is futile. This is because migration of the status box messages would be done in the next phase of the project, thus the potential tests written would be replaced and wasted. Therefore, I plan to combine the work done for stage 3 and 4 of the project together since they are intertwined, compared to the previous stages of the project which are independent of each other.
 
 Week 8 Plan:
 
 3rd stage:
-- [ ] Finish up any remaining work from Week 7
+- [X] Finish up any remaining work from Week 7
 - [ ] Complete tests for new feature above
+
+Works:
+- Progress for this week marked at this [checkpoint](https://github.com/TEAMMATES/teammates/pull/8901/commits/aeebbcc6fe06b88bf123b50d6b394567f69b5b22).
+- Updated this [PR](https://github.com/TEAMMATES/teammates/pull/8884) according to review comments. Latest commit shown [here](https://github.com/TEAMMATES/teammates/pull/8884/commits/cdbffba6654eddc65748af91f9df4903082ddc11).
+- Fixed an existing [bug](https://github.com/TEAMMATES/teammates/pull/8936).
+
+I managed to implement a modal box to confirm changes made to the existing students' spreadsheet interface. The modal box also provides an option to resend past session links to new emails if the user wants to change emails of existing students. The work involved both the front-end and back-end systems of the codebase and there was no major difficulty faced. Through the process of implementing the feature, I identified a bug in how the existing emails are generated and submitted a fix. 
+
+Also, through this [PR](https://github.com/TEAMMATES/teammates/pull/8884), my mentor highlighted concerns with my commit practices. I have the tendency to make all required changes first and then commit changes by grouping related files together. This was done to minimize the potential chain of commits so that the reviewer would not have to see outdated commits and look through a huge list of commits. 
+
+However, this practice can be improved as related changes might not always be grouped together properly through this practice. What I can do to improve is to follow a stricter commit organization requirements as specified by [here](https://oss-generic.github.io/process/) to the best of my ability.
+
+Although the practice is not enforced in TEAMMATES, it would allow reviewers to have a better time reviewing the PR. Also it would be a good habit for me to adopt for future commits I will be making, regardless for the project or for other issues. Futhermore, following this practice would allow me to identify bad practices and advice others on how they can improve to make the lives of reviewers much easier. A smoother review would allow the progress of PRs to be made more efficient, which would benefit everyone.
+
+As mentioned in last week's retrospect, I intend to combine the work done for stage 3 and 4 of the project together, thus tests will be written for the update action once the feedback mechanism is implemented.
 
 Week 9 Plan:
 

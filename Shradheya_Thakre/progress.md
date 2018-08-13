@@ -97,25 +97,85 @@ Week 5 Retrospect:
 This week due to post release issues related to testing, I spent most of my time fixing them rather than working on the project plan as they were of higher priority. However, I plan to use the buffer's in future weeks to complete the work that I planned to finish this week.
 
 Week 6 Plan:
-- [ ] Buffer week to complete unfinished work and investigate more on where testing needs to be improved
+- [x] Buffer week to complete unfinished work and investigate more on where testing needs to be improved
+
+Week 6 Work:
+
+- [x] Buffer week to complete unfinished work and investigate more on where testing needs to be improved
+- [x] Reviewing PR's by contributor
+- [x] Management work for TEAMMATES
+- [x] Helping other contributor with queries and figuring out how to solve issues for developers
+- [x] Continue making requested changes based on reviews
+
+Week 6 Retrospect:
+
+This week as planned was left to complete left over work and work on reviews provided by mentors. This buffer time helped in finishing old PR's and merge them.
 
 Week 7 Plan:
-- [ ] Add more tests for `InstructorSearchPage` and similar files
-- [ ] Refactor more testing code and improve stability
+- [x] Add more tests for ~`InstructorSearchPage`~ and similar files
+- [x] Refactor more testing code and improve stability
+
+Week 7 Work:
+
+- [x] Refactor more testing code and improve stability
+- [x] Merged PR: FeedbackRankQuestionUiTest.json: Fix data for Tests #8794
+- [x] Merged PR: Add test for scrolling function
+- [x] Merged PR: InstructorCourseDetailsPageUiTest: testing on live server: increase success rate for checking email delivery #7788
+
+Week 7 Retrospect:
+
+Some tests which are untable have been fixed and have ongoing PR with minor changes left to be made before they can be merged. These took long to merge as it took time to understand the reasoning and ensure that they become stable after using the workaround. In future more PR's of similar kind will be made to improve stability.
 
 Week 8 Plan:
-- [ ] Investigate on why certain tests require to be run extra time to pass
-- [ ] Improve stability of fragile tests
+- [x] Investigate on why certain tests require to be run extra time to pass
+- [x] Improve stability of fragile tests
+
+Week 8 Work:
+
+- [x] Work on testing errors on live production server
+- [x] Fix assertion error in instructorCourseJoinEmail on live server #8452
+- [x] EmailGeneratorTest failing on live server #8908
+
+Week 8 Retropect:
+
+This week was devoted to fix urgent bugs and testing issues on live server.
 
 Week 9 Plan:
-- [ ] Based on various Bug reports, find out how to add more tests which can spot bugs while testing
+- [x] Based on various Bug reports, find out how to add more tests which can spot bugs while testing
 - [ ] Explore new Testing Framework for JS which can be useful for front end migration
 
+Week 9 Work:
+- [x] Merge [InstructorFeedbackResultsPageUiTest: Improve testing logic and procedure #8858](https://github.com/TEAMMATES/teammates/pull/8859)
+- [x] Merge [Remove wrong Godmode changes due to unstable test #8937](https://github.com/TEAMMATES/teammates/pull/8938)
+- [x] Investigate tests failing on live server
+
+Week 9 Retrospect:
+
+This week was spent on making requested changes based on reviews for the already open PR's. Some administrative work was also done for e.g. making PR to correct unnecessary changes and reviewing and merging PR.
+
 Week 10 Plan:
-- [ ] Buffer time to do unfinished work
+- [x] Buffer time to do unfinished work
+
+Week 10 Work:
+- [x] Review PR: [InstructorHomePageUiTest & InstructorCoursesPageUiTest failing on 'recycling-bin' branch #8971](https://github.com/TEAMMATES/teammates/pull/8973)
+- [x] Merge PR: [AdminActivityLogPageAction: fix bug in generation of status message #6711](https://github.com/TEAMMATES/teammates/pull/8970)
+
+Week 10 Retrospect:
+
+Continued working on the review loop of existing PR's. Also reviewed 3-4 PR's of other contributors and got them merged. A PR of bug fix which was left untouched for a while was resolved.
 
 Week 11 Plan:
 - [ ] Work on [Issue #4034](https://github.com/TEAMMATES/teammates/issues/4034)
+
+Week 11 Work:
+- [x] Merge PR: [ProfilesDbTest.testUpdateStudentProfile failing on live server #8958](https://github.com/TEAMMATES/teammates/pull/8966)
+- [x] Review PR: [Instructor: comment on responses: support entering comments for each response from view RQG #8987](https://github.com/TEAMMATES/teammates/pull/8992)
+- [x] Review PR: [Instructor: Feedback Session: question number drop down menu #8942](https://github.com/TEAMMATES/teammates/pull/8949)
+- [x] Review PR: [Instructor: Question view: visibility icon does not appear for new comments #8899](https://github.com/TEAMMATES/teammates/pull/8934)
+
+Week 11 Retrospect:
+
+This week was mainly spent on reviewing the critical PR's of other contributors and working on open PR's. Some post release issues were solved this week. There was deviation from the work plan here because the issue of greater priority was popped up this week.
 
 Week 12 Plan:
 - [ ] Add Tests: [Create Unit Tests for Feedback*QuestionDetails classes#1501](https://github.com/TEAMMATES/teammates/issues/1501)

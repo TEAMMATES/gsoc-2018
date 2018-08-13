@@ -123,10 +123,10 @@ Week 13 Plan:
 Week 13 work:
 - [x] Merged: [Instructor: Help page: Documentation search feature](https://github.com/TEAMMATES/teammates/pull/8951)
 - [x] Approved: [Student: Feedback submission: Rank question: Improve explanation regarding ranking constraints](https://github.com/TEAMMATES/teammates/pull/8870)
-- [x] Awaiting final review and merging: [Instructor: edit MCQ question: give an easier way to reorder options](https://github.com/TEAMMATES/teammates/pull/8889)
-- [x] Closed: [Instructor: Edit distribute points question: reorder options using drag and drop](https://github.com/TEAMMATES/teammates/pull/8916) since all changes of this PR were merged in [8889](https://github.com/TEAMMATES/teammates/pull/8889)
+- [x] Approved: [Instructor: edit MCQ question: give an easier way to reorder options](https://github.com/TEAMMATES/teammates/pull/8889)
 - [x] Awaiting final review and merging: [Instructor: Feedback Session: Improve display of more information for advanced settings #8932](https://github.com/TEAMMATES/teammates/pull/9001)
-- [x] Awaiting response: [Student: submit responses: use a more friendly way to choose evaluee #8867](https://github.com/TEAMMATES/teammates/pull/8878). Waiting for response for comment [here](https://github.com/TEAMMATES/teammates/pull/8878#discussion_r208111443) before making final changes. Other 
+- [x] Awaiting response: [Student: submit responses: use a more friendly way to choose evaluee #8867](https://github.com/TEAMMATES/teammates/pull/8878). Waiting for response for comment [here](https://github.com/TEAMMATES/teammates/pull/8878#discussion_r208111443) before making final changes. Other issues pointed in review have been fixed.
+- [x] Closed: [Instructor: Edit distribute points question: reorder options using drag and drop](https://github.com/TEAMMATES/teammates/pull/8916) since all changes of this PR were merged in [8889](https://github.com/TEAMMATES/teammates/pull/8889)
 - [x] Ongoing PR: [Warn if browser is not compatible with TEAMMATES #9011](https://github.com/TEAMMATES/teammates/pull/9016). Currently finalizing designing for a dismissable alert and fixing issues pointed in review.
 - [x] Created issue: [Instructor: Edit Feedback Session: Add drag and drop feature for question option weights #9040](https://github.com/TEAMMATES/teammates/issues/9040)
 

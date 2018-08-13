@@ -203,3 +203,9 @@ Week 14 Plan:
 - [ ] Work on allowing option weights to be dragged along with options
 - [ ] Buffer period to resolve pending work from week 9-12
 - [ ] Code review + Fix issues
+
+Suggestions for future work
+- Add more content/questions to instructor help documentation
+- Implement row selection for table operations instead of separate action buttons for each row
+- Simplify and organize Students view particularly filtering functionality
+- Add progressive disclosure to advanced settings for rank questions

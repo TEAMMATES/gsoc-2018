@@ -113,7 +113,6 @@ Week 7 retrospect:
 This week involved finishing the drag and drop functionality for all question types (except Rubric). Everything was ready for review but later merge conflicts were reported again due to another contributor working on enhancing MCQ questions as well. I started researching into the implementation of a search feature for instructor help page.
 
 Week 8 Plan:
-<<<<<<< HEAD
 - [x] Create mockups for search feature
 - [x] Implement initial working prototype of search feature
 - [x] Code review and fix merge conflicts with earlier PRs
@@ -198,34 +197,9 @@ Week 13 work:
 - [x] Created issue: [Instructor: Edit Feedback Session: Add drag and drop feature for question option weights #9040](https://github.com/TEAMMATES/teammates/issues/9040)
 
 Week 13 retrospect:
-I managed to get reviews this week. Majority of the week went into fixing issues after code review. I am still waiting for final reviews on some PRs (mentioned above) that are close to merging. Later half of the week was spent working on newer issues.
-=======
-- [ ] Create mockups for search feature
-- [ ] Implement initial working prototype of search feature
-- [ ] Code review and fix merge conflicts with earlier PRs
-
-Week 9 Plan:
-- [ ] Buffer period to resolve pending issues from week 6-8
-- [ ] Optimize search function to return more relevant results
-- [ ] Add tests for search feature 
-
-Week 10 Plan:
-- [ ] Back end development (if any) for getting started guide
-- [ ] Write back end tests 
-
-Week 11 Plan:
-- [ ] Code review + fix issues for getting started guide
-- [ ] Improve documentation structure (split into multiple pages + add side navigation where necessary, to be discussed)
-
-Week 12 Plan:
-- [ ] Write tests for changes to documentation structure (if any)
-- [ ] Fix issues after code review
-
-Week 13 Plan:
-- [ ] Buffer period to resolve pending work from week 9-12
-- [ ] Code review + Fix issues
->>>>>>> master
+I managed to get reviews this week. Majority of the week went into fixing issues after code review. I am still waiting for final reviews on some PRs (mentioned above) that are close to merging. Later half of the week was spent working on newer issues. I looked into browser compatibility of TEAMMATES and adding drag and drop feature to option weights.
 
 Week 14 Plan:
+- [ ] Work on allowing option weights to be dragged along with options
 - [ ] Buffer period to resolve pending work from week 9-12
 - [ ] Code review + Fix issues

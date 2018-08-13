@@ -189,8 +189,8 @@ Week 14 Plan:
 
 Suggestions for further work
 - Enable feedback participant comments for other question types.
-- Ability to add feedback participant comments with response too.
-- Ability to set visibility settings of feedback participant comments.
+- Add ability to add feedback participant comments with response too.
+- Add ability to set visibility settings of feedback participant comments.
 - Allow instructors to disable feedback participant comments.
 - Allow instructors to require feedback participant comments.
-- Ability to know if the instructor comment was read.
+- Add ability to know if the instructor comment was read.

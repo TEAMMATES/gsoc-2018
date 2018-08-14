@@ -197,7 +197,7 @@ Week 14 Work:
 - [x] Merged PR #8969 [Instructor: recycle bin feature: add tests for deleting & restoring of sessions #8968](https://github.com/TEAMMATES/teammates/pull/8969)
 - [x] Merged PR #9014 [Instructor: recycle bin feature: refactor term 'recovery' to other meaningful terms #9013](https://github.com/TEAMMATES/teammates/pull/9014)
 - [x] Committed to PR #9039 [Instructor: delete all courses permanently: specify courses being deleted #9038](https://github.com/TEAMMATES/teammates/pull/9039)
-- [x] Created PR #9049 [Instructor: Feedback Sessions Page: Recycle Bin feature for sessions #9048](https://github.com/TEAMMATES/teammates/pull/9049)
+- [x] Merged PR #9049 [Instructor: Feedback Sessions Page: Recycle Bin feature for sessions #9048](https://github.com/TEAMMATES/teammates/pull/9049)
 
 Week 14 Retrospect:
 

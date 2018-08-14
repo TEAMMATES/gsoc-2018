@@ -180,5 +180,25 @@ Week 13 Plan:
 - [x] Add documentation for Recycle Bin feature in the instructors help page
 - [ ] Complete any work left from past weeks
 
+Week 13 Work:
+
+- [x] Committed to PR #9014 [Instructor: recycle bin feature: refactor term 'recovery' to other meaningful terms #9013](https://github.com/TEAMMATES/teammates/pull/9014)
+- [x] Created PR #9039 [Instructor: delete all courses permanently: specify courses being deleted #9038](https://github.com/TEAMMATES/teammates/pull/9039)
+
+Week 13 Retrospect:
+
+This week I focused on modifying the confirmation dialog for deleting all courses in Recycle Bin. No major difficulties encountered. Waiting for final review.
+
 Week 14 Plan:
-- [ ] Buffer time for review and iterations
+- [x] Buffer time for review and iterations
+
+Week 14 Work:
+
+- [x] Merged PR #8969 [Instructor: recycle bin feature: add tests for deleting & restoring of sessions #8968](https://github.com/TEAMMATES/teammates/pull/8969)
+- [x] Merged PR #9014 [Instructor: recycle bin feature: refactor term 'recovery' to other meaningful terms #9013](https://github.com/TEAMMATES/teammates/pull/9014)
+- [x] Committed to PR #9039 [Instructor: delete all courses permanently: specify courses being deleted #9038](https://github.com/TEAMMATES/teammates/pull/9039)
+- [x] Created PR #9049 [Instructor: Feedback Sessions Page: Recycle Bin feature for sessions #9048](https://github.com/TEAMMATES/teammates/pull/9049)
+
+Week 14 Retrospect:
+
+This week the Recycle Bin feature for feedback sessions has been successfully merged into `recycling-bin` branch, and I have created a PR to merge it into `master`. I also refactored the confusing term `recovery` to other meaningful terms (i.e. `soft-deleted`, `RecycleBin`). No major difficulties encountered.

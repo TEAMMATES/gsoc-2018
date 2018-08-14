@@ -8,6 +8,8 @@ Overall Direction:
 - Add more test cases for missing features
 - Improving test infrastructure: Make it easier to write new tests, make tests less fragile, make test code easier to understand
 - Explore new JavaScript testing framework to replace QUnit
+- Stablaise test and fix problems with live server testing
+- Fixing high priority bugs on Staging Server
 
 ---
 
@@ -178,15 +180,43 @@ Week 11 Retrospect:
 This week was mainly spent on reviewing the critical PR's of other contributors and working on open PR's. Some post release issues were solved this week. There was deviation from the work plan here because the issue of greater priority was popped up this week.
 
 Week 12 Plan:
-- [ ] Add Tests: [Create Unit Tests for Feedback*QuestionDetails classes#1501](https://github.com/TEAMMATES/teammates/issues/1501)
-- [ ] Complete PR's which were delayed from previous weeks
+- [x] Add Tests: [Create Unit Tests for Feedback*QuestionDetails classes#1501](https://github.com/TEAMMATES/teammates/issues/1501)
+- [x] Complete PR's which were delayed from previous weeks
+
+Week 12 Work:
+
+- [x] Merge [Fix assertion error in instructorCourseJoinEmail on live server #8452](https://github.com/TEAMMATES/teammates/pull/8998)
+- [x] Reviewed [UI tests against live server: update automated login to match new Google login page #9015](https://github.com/TEAMMATES/teammates/pull/9023)
+
+Week 12 Retrospect:
+
+This week was spent on working on existing PR's and fixing some problems with Google Login Page for running tests on production
+
 
 Week 13 Plan:
 - [ ] More details to be added later depending on the priority
-- [ ]
-- [ ]
+
+Week 13 Work:
+
+- [x] Reveiwed PR: [Instructor Feedback Session: option to add template questions when editting session #8877](https://github.com/TEAMMATES/teammates/pull/8914)
+- [x] Merged PR: [FeedbackResponsesDbTest addResponsesToDb: inject real IDs for feedback questions #3447](https://github.com/TEAMMATES/teammates/pull/8974)
+
+Week 13 Retrospect:
+
+As this week was meant to keep for continuing the existing work and as a buffer, it was spent well as lots of PR's were pending due to multiple review cycles.
 
 Week 14 Plan:
 - [ ] More details to be added later depending on the priority
-- [ ]
-- [ ]
+
+Week 14 Work:
+- [x] Review PR's and work on open PR's
+- [x] Final project submission
+
+
+Links to work:
+
+- [Merged Code](https://github.com/TEAMMATES/teammates/pulls?utf8=%E2%9C%93&q=is%3Apr+author%3Atshradheya+is%3Aclosed+is%3Amerged)
+- [Open PR's](https://github.com/TEAMMATES/teammates/pulls/tshradheya)
+- [Code Reviewed](https://github.com/TEAMMATES/teammates/pulls?utf8=%E2%9C%93&q=+is%3Apr+assignee%3Atshradheya+)
+
+

@@ -304,10 +304,10 @@ Works:
 Retrospect on Week 14:
 
 This week was spent on further in-depth discussion on the optimal direction ahead to improve the status message after enrollment. The discussion was necessary because of a few reasons:
-1. No functionalities in TEAMMATES uses AJAX response data to modify the DOM directly yet, so there's no standard to take reference from. This means that a thorough design has to be decided from scratch.
+1. No functionalities in TEAMMATES uses AJAX response data to modify the DOM extensively yet, so there's no standard to take reference from. This means that a thorough design has to be decided from scratch.
 2. Modifications would be made to existing codebase because the enrollment result page would not be used anymore. 
-3. Existing feedback that was previously in the enrollment result page has to be migrated to be shown in the enroll page in a suitable format. 
-4. Old tests would to be deleted and new tests would be added according to the new design decided.
-5. It would affect the design implementation of status messages shown for the update feature as discussed last week.
+3. Existing feedback that was previously present in the enrollment result page has to be migrated to be shown in the enroll page in a suitable format. 
+4. Old tests would be deleted and new tests would be added according to the new design.
+5. It would affect the design implementation of status messages shown for the update feature discussed last week.
 
 The discussion went well and there was substantial groundwork made for the design choices to proceed with implementation. Moving forward, I will spend my free time to implement the remaining tasks based on any new discussion made for the proposed student data user interface upgrade.

@@ -278,12 +278,36 @@ Also, I managed to implement a column of check boxes in the spreadsheet interfac
 Week 13 Plan:
 
 5th stage:
-- [ ] Finish up any remaining work from Week 12
-- [ ] Implement functionality of delete button
+- [X] Finish up any remaining work from Week 12
+- [X] Implement functionality of delete button
 - [ ] Write tests for new feature above
+
+Works:
+- Progress of this week marked at this [checkpoint](https://github.com/TEAMMATES/teammates/pull/9019/commits/245127a30d6fbcebcab6b50f7dbb89fa1741bb14).
+- Discussion made for this [PR](https://github.com/TEAMMATES/teammates/pull/9017).
+
+Retrospect on Week 13:
+
+I managed to complete the final phase of the proposed project, which includes setting up a delete action to delete selected students from the existing students' spreadsheet interface. The work includes dealing with the full stack and there were no major difficulties faced due to my increased familiarity with the `Courses` aspect.
+
+The rest of the week was spent discussing on better design choices to improve the status messages for enrollment based on the progress made. The discussion included better back-end class design choices and setting up suitable API endpoints. The discussion was fruitful and necessary as it would affect how status messages will be shown in the existing students' spreadsheet interface after updating student entries. This is because their end behavior would be very similar, which involves highlighting the specific student entry row to indicate its current status (success/failure).
 
 Week 14 Plan:
 
 5th stage:
-- [ ] Finish up any remaining work from Week 13
+- [X] Finish up any remaining work from Week 13
 - [ ] Complete tests for new feature above
+
+Works:
+- Discussion made for this [PR](https://github.com/TEAMMATES/teammates/pull/9017).
+
+Retrospect on Week 14:
+
+This week was spent on further in-depth discussion on the optimal direction ahead to improve the status message after enrollment. The discussion was necessary because of a few reasons:
+1. No functionalities in TEAMMATES uses AJAX response data to modify the DOM extensively yet, so there's no standard to take reference from. This means that a thorough design has to be decided from scratch.
+2. Modifications would be made to existing codebase because the enrollment result page would not be used anymore. 
+3. Existing feedback that was previously present in the enrollment result page has to be migrated to be shown in the enroll page in a suitable format. 
+4. Old tests would be deleted and new tests would be added according to the new design.
+5. It would affect the design implementation of status messages shown for the update feature discussed last week.
+
+The discussion went well and there was substantial groundwork made for the design choices to proceed with implementation. Moving forward, I will spend my free time to implement the remaining tasks based on any new discussion made for the proposed student data user interface upgrade.
